@@ -1,13 +1,13 @@
 # SPDX-License-Identifier: Apache-2.0
 #
-# Copyright (C) 2023 ImmortalWrt.org
+# Copyright (C) 2024 ImmortalWrt.org
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=LuCI support for GoWebDav
-LUCI_DEPENDS:=+gowebdav
-LUCI_PKGARCH:=all
+LUCI_TITLE:=LuCI support for dufs
+LUCI_DEPENDS:=+dufs
 
+PKG_LICENSE:=Apache-2.0
 PKG_MAINTAINER:=Tianling Shen <cnsztl@immortalwrt.org>
 
 include ../../luci.mk
