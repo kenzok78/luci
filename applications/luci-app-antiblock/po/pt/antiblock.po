@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2025-07-10 17:02+0000\n"
+"PO-Revision-Date: 2025-07-20 19:54+0000\n"
 "Last-Translator: ssantos <ssantos@web.de>\n"
 "Language-Team: Portuguese <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsantiblock/pt/>\n"
@@ -82,7 +82,7 @@ msgstr "O registo não está ativado."
 
 #: applications/luci-app-antiblock/htdocs/luci-static/resources/view/antiblock/domains.js:103
 msgid "Path to file in \"Domains path\" is not set."
-msgstr ""
+msgstr "O caminho para o ficheiro em \"Caminho Dominios\" não está definido."
 
 #: applications/luci-app-antiblock/htdocs/luci-static/resources/view/antiblock/args.js:15
 msgid ""
