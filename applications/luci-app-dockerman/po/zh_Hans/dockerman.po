@@ -1,8 +1,7 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-02-20 00:35+0000\n"
-"Last-Translator: 大王叫我来巡山 "
-"<hamburger2048@users.noreply.hosted.weblate.org>\n"
+"PO-Revision-Date: 2026-02-22 16:18+0000\n"
+"Last-Translator: MkQtS <MkQtS@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Simplified Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsdockerman/zh_Hans/>\n"
 "Language: zh_Hans\n"
@@ -366,7 +365,7 @@ msgstr "容器名称"
 msgid "Container Statistics"
 msgstr "容器数据"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:922
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:927
 msgid "Container created"
 msgstr "创建了容器"
 
@@ -374,7 +373,7 @@ msgstr "创建了容器"
 msgid "Container detail"
 msgstr "容器详情"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:922
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:927
 msgid "Container duplicated"
 msgstr "复制了容器"
 
@@ -423,11 +422,11 @@ msgstr "容器概览"
 msgid "Create"
 msgstr "创建"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:916
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:921
 msgid "Create container"
 msgstr "创建容器"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:937
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:942
 msgid "Create container failed"
 msgstr "容器创建失败"
 
@@ -722,7 +721,7 @@ msgstr "未能连接到控制面板"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/overview.js:90
 msgid "Failed to execute \"/etc/init.d/%s %s\" action: %s"
-msgstr "执行 \"/etc/init.d/%s %s\" 操作失败： %s"
+msgstr "执行 \"/etc/init.d/%s %s\" 操作失败：%s"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/events.js:321
 msgid "Failed to load events: %s"
@@ -1230,11 +1229,11 @@ msgstr "网络"
 msgid "Networks overview"
 msgstr "网络概览"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:924
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:929
 msgid "New container duplicated from"
 msgstr "新建了容器，复制自"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:925
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:930
 msgid "New container has been created."
 msgstr "已创建了新容器。"
 
@@ -1284,7 +1283,7 @@ msgstr "未选中映像"
 msgid "No logs available"
 msgstr "无日志可用"
 
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:909
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:914
 msgid "No name specified."
 msgstr "未指定名称。"
 
@@ -1483,10 +1482,6 @@ msgstr "特权模式"
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:822
 msgid "Processes"
 msgstr "进程"
-
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/dockerman/common.js:1095
-msgid "Progress"
-msgstr "进度"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:319
 msgid "Propagation: private"
@@ -2258,9 +2253,12 @@ msgid "volume name"
 msgstr "卷名"
 
 #: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container.js:1352
-#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:928
+#: applications/luci-app-dockerman/htdocs/luci-static/resources/view/dockerman/container_new.js:933
 msgid "with warnings"
 msgstr "有警告"
+
+#~ msgid "Progress"
+#~ msgstr "进度"
 
 #~ msgid ""
 #~ "This page displays all containers that have been created on the connected "
