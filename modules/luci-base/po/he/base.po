@@ -21,7 +21,7 @@ msgctxt "Yet unknown nftables table family (\"family\" table \"name\")"
 msgid "\"%h\" table \"%h\""
 msgstr "„%h” טבלה „%h”"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1859
 msgid "%.1f dB"
 msgstr "%.1f דציבל"
 
@@ -29,7 +29,7 @@ msgstr "%.1f דציבל"
 msgid "%d Bit"
 msgstr "%d סיביות"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4850
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4855
 msgid "%d invalid field(s)"
 msgstr "%d שדות שגויים"
 
@@ -78,7 +78,7 @@ msgstr ""
 msgid "%s means \"the address of the system running dnsmasq\"."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1767
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1779
 msgid ""
 "%s services running on this device in the default VRF context (ie., not "
 "bound to any VRF device) shall work across all VRF domains."
@@ -99,6 +99,10 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/validation.js:932
 msgid "%s; %d tokens separated by %s"
 msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:152
+msgid "'net30', 'p2p', or 'subnet'"
+msgstr "‚net30’,‏ ‚p2p’, או ‚subnet’ (מסכת רשת)"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/bandwidth.js:294
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:533
@@ -137,9 +141,9 @@ msgstr ""
 msgid "-- Additional Field --"
 msgstr "-- שדה נוסף --"
 
-#: modules/luci-base/htdocs/luci-static/resources/cbi.js:356
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4506
-#: modules/luci-base/htdocs/luci-static/resources/form.js:5191
+#: modules/luci-base/htdocs/luci-static/resources/cbi.js:360
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4510
+#: modules/luci-base/htdocs/luci-static/resources/form.js:5195
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:830
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1075
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2183
@@ -148,7 +152,7 @@ msgstr "-- שדה נוסף --"
 msgid "-- Please choose --"
 msgstr "-- נא לבחור --"
 
-#: modules/luci-base/htdocs/luci-static/resources/cbi.js:357
+#: modules/luci-base/htdocs/luci-static/resources/cbi.js:361
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:1076
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:2184
 #: modules/luci-compat/luasrc/view/cbi/header.htm:9
@@ -194,6 +198,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:883
 msgid "07: x64 UEFI"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:71
+msgid "0: Deny"
 msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:60
@@ -257,6 +265,10 @@ msgstr ""
 msgid "19: ARM UEFI 64 boot from HTTP"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:71
+msgid "1: OS utils"
+msgstr ""
+
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:61
 msgctxt "sstp log level value"
 msgid "2"
@@ -286,7 +298,7 @@ msgstr ""
 msgid "24: ARM uboot 64 boot from HTTP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
 msgid "256"
 msgstr ""
 
@@ -308,6 +320,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:900
 msgid "29: RISC-V 128-bit UEFI"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:71
+msgid "2: User scripts"
 msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:62
@@ -353,6 +369,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:910
 msgid "39: LoongArch 64-bit UEFI"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:71
+msgid "3: Allow passwords in env"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:1058
@@ -650,11 +670,11 @@ msgid ""
 "the same network."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
 msgid "A43C + J43 + A43"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
 msgid "A43C + J43 + A43 + V43"
 msgstr ""
 
@@ -662,75 +682,75 @@ msgstr ""
 msgid "AC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1840
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1852
 msgid "ADSL"
 msgstr "ADSL"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1814
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
 msgid "ADSL (G.992.1) Annex A"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1815
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1827
 msgid "ADSL (G.992.1) Annex B"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1808
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1820
 msgid "ADSL (all variants) Annex A/L/M"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1804
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1816
 msgid "ADSL (all variants) Annex A/L/M + VDSL2 Annex A/B/C"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1809
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
 msgid "ADSL (all variants) Annex B"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1805
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
 msgid "ADSL (all variants) Annex B + VDSL2 Annex A/B/C"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1810
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
 msgid "ADSL (all variants) Annex B/J"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1806
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1818
 msgid "ADSL (all variants) Annex B/J + VDSL2 Annex A/B/C"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1812
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1824
 msgid "ADSL (all variants) Annex M"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1817
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
 msgid "ADSL2 (G.992.3) Annex A"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1818
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
 msgid "ADSL2 (G.992.3) Annex B"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1819
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1831
 msgid "ADSL2 (G.992.3) Annex L"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1820
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1832
 msgid "ADSL2 (G.992.3) Annex M"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1821
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
 msgid "ADSL2+ (G.992.5) Annex A"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1822
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
 msgid "ADSL2+ (G.992.5) Annex B"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1823
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
 msgid "ADSL2+ (G.992.5) Annex M"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1813
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
 msgid "ANSI T1.413"
 msgstr ""
 
@@ -778,33 +798,33 @@ msgid ""
 "in 802.11v. Note: might break receiver STA multicast expectations."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1835
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1847
 msgid "ATM (Asynchronous Transfer Mode)"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
 #, fuzzy
 msgid "ATM Bridges"
 msgstr "גשרי ATM"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1888
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1900
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:66
 msgid "ATM Virtual Channel Identifier (VCI)"
 msgstr "ATM מזהה ערוץ וירטואלי (VCI)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1889
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1901
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:70
 msgid "ATM Virtual Path Identifier (VPI)"
 msgstr "מזהה נתיבים וירטואליים של ATM‏ (VPI)"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1856
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1868
 msgid ""
 "ATM bridges expose encapsulated ethernet in AAL5 connections as virtual "
 "Linux network interfaces which can be used in conjunction with DHCP or PPP "
 "to dial into the provider network."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1895
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1907
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoa.js:62
 msgid "ATM device number"
 msgstr "מס' התקן של ATM"
@@ -823,12 +843,20 @@ msgstr ""
 msgid "Accept DNS queries only from hosts whose address is on a local subnet."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:54
+msgid "Accept VLANs"
+msgstr ""
+
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:267
 msgid "Accept from public keys"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1185
 msgid "Accept local"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:262
+msgid "Accept options pushed from server"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:101
@@ -938,7 +966,7 @@ msgstr ""
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2416
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2429
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2437
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4280
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4284
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:25
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:189
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:197
@@ -949,7 +977,7 @@ msgstr ""
 msgid "Add"
 msgstr "הוסף"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1860
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1872
 msgid "Add ATM Bridge"
 msgstr ""
 
@@ -975,11 +1003,11 @@ msgid ""
 "leaving this value empty disables the feature."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1570
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1579
 msgid "Add device configuration"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1510
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
 msgid "Add device configuration…"
 msgstr ""
 
@@ -1013,7 +1041,7 @@ msgid "Add multicast rule"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:483
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1394
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1403
 msgid "Add new interface..."
 msgstr "הוסף ממשק חדש..."
 
@@ -1033,6 +1061,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:694
 msgid "Add requestor MAC"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:113
+msgid "Add route after establishing connection"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:354
@@ -1074,6 +1106,10 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:178
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:178
 msgid "Additional Peers"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:224
+msgid "Additional authentication over TLS"
 msgstr ""
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:379
@@ -1129,7 +1165,7 @@ msgid "Administration"
 msgstr "מנהלה"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:497
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1886
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1898
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:42
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:135
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:980
@@ -1161,7 +1197,7 @@ msgstr ""
 msgid "Aggregate Originator Messages"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1684
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1693
 msgid "Aggregation device"
 msgstr ""
 
@@ -1246,6 +1282,10 @@ msgstr ""
 msgid "Allow all except listed"
 msgstr "אפשר הכל חוץ מהרשומים"
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:41
+msgid "Allow client-to-client traffic"
+msgstr ""
+
 #: modules/luci-compat/root/usr/share/rpcd/acl.d/luci-compat.json:3
 msgid "Allow full UCI access for legacy applications"
 msgstr ""
@@ -1263,6 +1303,14 @@ msgstr "אפשר רשומים בלבד"
 msgid "Allow localhost"
 msgstr "אפשר localhost"
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:251
+msgid "Allow multiple clients with same certificate"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:222
+msgid "Allow only one session"
+msgstr ""
+
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:193
 msgid "Allow rebooting the device"
 msgstr ""
@@ -1273,6 +1321,10 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:46
 msgid "Allow remote hosts to connect to local SSH forwarded ports"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:107
+msgid "Allow remote to change its IP or port"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/dropbear.js:41
@@ -1293,12 +1345,30 @@ msgstr ""
 msgid "Allowed IPs"
 msgstr "כתובות IP מורשות"
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
+msgid "Allowed maximum of connected clients"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:259
+msgid "Allowed maximum of internal"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:260
+msgid "Allowed maximum of new connections"
+msgstr ""
+
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/protocol/modemmanager.js:88
 msgid "Allowed network technology"
 msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:291
 msgid "AllowedIPs setting is invalid"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:364
+msgid ""
+"Almost nothing here prevents you from selecting invalid configuration "
+"options which prevent openvpn from starting. Read the manual."
 msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:42
@@ -1346,7 +1416,7 @@ msgstr ""
 msgid "An optional, short description for this device"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1802
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1814
 msgid "Annex"
 msgstr ""
 
@@ -1421,15 +1491,19 @@ msgstr ""
 msgid "Any zone"
 msgstr "כל תחום"
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:93
+msgid "Append log to file"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:119
 msgid "Apply backup?"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5480
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5485
 msgid "Apply checked"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5510
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5515
 msgid "Apply request failed with status <code>%h</code>"
 msgstr ""
 
@@ -1438,13 +1512,13 @@ msgid "Apply these DHCP Options"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2198
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5212
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5343
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5484
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5217
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5348
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5489
 msgid "Apply unchecked"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5421
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5426
 msgid "Applying configuration changes… %ds"
 msgstr ""
 
@@ -1461,12 +1535,12 @@ msgstr ""
 msgid "As DHCP-Options; send unsolicited (dnsmasq only)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1237
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid ""
 "Assign a part of given length of every public IPv6-prefix to this interface"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1251
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
@@ -1515,6 +1589,10 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/views.js:43
 msgid "Auth Priv"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:263
+msgid "Authenticate using username/password"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2024
@@ -1570,7 +1648,7 @@ msgstr ""
 msgid "Automatically check filesystem for errors before mounting"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1230
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1239
 msgid ""
 "Automatically handle multiple uplink interfaces using source-based policy "
 "routing."
@@ -1582,6 +1660,10 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:145
 msgid "Automatically mount swap on hotplug"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:275
+msgid "Automatically redirect default route"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:149
@@ -1618,11 +1700,11 @@ msgstr "ממוצע:"
 msgid "Avoid Bridge Loops"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1829
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
 msgid "B43 + B43C"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1830
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1842
 msgid "B43 + B43C + V43"
 msgstr ""
 
@@ -1656,6 +1738,7 @@ msgid "Back to settings"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:908
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1225
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
 msgid "Backup"
 msgstr "גיבוי"
@@ -1685,6 +1768,10 @@ msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:133
 msgid "Base64-encoded public key of this interface for sharing."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:282
+msgid "Basic Settings"
 msgstr ""
 
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:10
@@ -1816,7 +1903,7 @@ msgid "Bridge VLAN filtering"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:453
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1687
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
 msgid "Bridge device"
 msgstr ""
 
@@ -1833,7 +1920,7 @@ msgstr ""
 msgid "Bridge traffic table \"%h\""
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1896
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1908
 msgid "Bridge unit number"
 msgstr "מס' יח' גשר"
 
@@ -1856,7 +1943,7 @@ msgid "Broadcast"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3442
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4961
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4966
 msgid "Browse…"
 msgstr ""
 
@@ -1876,6 +1963,10 @@ msgstr ""
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:178
 msgid "CA certificate; if empty it will be saved after the first connection."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:157
+msgid "CA path"
 msgstr ""
 
 #: protocols/luci-proto-mbim/htdocs/luci-static/resources/protocol/mbim.js:79
@@ -1910,6 +2001,10 @@ msgstr ""
 msgid "Cached"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:75
+msgid "Call down cmd/script before TUN/TAP close"
+msgstr ""
+
 #: modules/luci-compat/luasrc/model/network/proto_modemmanager.lua:53
 #: modules/luci-compat/luasrc/model/network/proto_qmi.lua:53
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:21
@@ -1927,12 +2022,12 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3308
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3551
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4970
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5476
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4975
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5481
 #: modules/luci-compat/luasrc/view/cbi/delegator.htm:14
 #: modules/luci-compat/luasrc/view/cbi/simpleform.htm:52
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:186
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1400
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1409
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2502
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:128
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:297
@@ -1997,6 +2092,10 @@ msgstr ""
 msgid "Cellular Network"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:32
+msgid "Certificate authority"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2008
 msgid "Certificate constraint (Domain)"
 msgstr ""
@@ -2052,18 +2151,26 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5192
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:63
+msgid "Change process priority"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:60
+msgid "Change to directory before initialization"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
 msgid "Changes"
 msgstr "שינויים"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5471
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5476
 msgid ""
 "Changes have been made to the existing connection via \"%h\". This could "
 "inhibit access to this device. Any IP change requires <strong>connecting to "
 "the new IP</strong> within %d seconds to retain the changes."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5546
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5551
 msgid "Changes have been reverted."
 msgstr ""
 
@@ -2092,6 +2199,10 @@ msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:153
 msgid "Check filesystems before mount"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:233
+msgid "Check peer certificate against a CRL"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2462
@@ -2130,12 +2241,20 @@ msgid ""
 "out the <em>custom</em> field to define a new network."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:61
+msgid "Chroot to directory after initialization"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1304
 msgid "Cipher"
 msgstr ""
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:91
 msgid "Cisco UDP encapsulation"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:436
+msgid "Clear"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
@@ -2162,12 +2281,20 @@ msgstr ""
 msgid "Client ID to send when requesting DHCP"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:245
+msgid "Client is disabled"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:392
+msgid "Client metadata"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3242
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3246
 msgid "Clone"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5209
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5214
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:173
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/sshkeys.js:179
 msgid "Close"
@@ -2183,6 +2310,12 @@ msgid ""
 "Close inactive connection after the given amount of seconds, use 0 to "
 "persist connection"
 msgstr "סגור חיבורים לא פעילים אחרי מספר השניות שהוגדר, הזן 0 על-מנת לא לסגור"
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1226
+msgid ""
+"Cold standby; Establish a connection only when no other interface is "
+"available (slower)"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:64
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:85
@@ -2236,10 +2369,11 @@ msgid "Compute outgoing checksum (optional)."
 msgstr ""
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:283
 msgid "Config File"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5192
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:452
 msgid "Configuration"
 msgstr "הגדרות"
@@ -2248,16 +2382,28 @@ msgstr "הגדרות"
 msgid "Configuration Export"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5396
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5401
 msgid "Configuration changes applied."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5329
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5334
 msgid "Configuration changes have been rolled back!"
 msgstr ""
 
 #: modules/luci-compat/luasrc/model/network/proto_ncm.lua:63
 msgid "Configuration failed"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:30
+msgid "Configure client mode"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:38
+msgid "Configure server bridge"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:37
+msgid "Configure server mode"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1009
@@ -2299,7 +2445,7 @@ msgid ""
 "Configures the operation mode of the NDP proxy service on this interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1556
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1565
 msgid "Configure…"
 msgstr ""
 
@@ -2310,6 +2456,14 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:55
 msgid "Confirmation"
 msgstr "אישור"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:272
+msgid "Connect through Socks5 proxy"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:268
+msgid "Connect to remote host through an HTTP proxy"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:91
@@ -2336,12 +2490,16 @@ msgstr ""
 msgid "Connection lost"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:267
+msgid "Connection retry interval"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:421
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:181
 msgid "Connections"
 msgstr "חיבורים"
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5470
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5475
 msgid "Connectivity change"
 msgstr ""
 
@@ -2394,7 +2552,7 @@ msgid ""
 "title=\"Router Advertisement\">RA</abbr> messages."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5365
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5370
 msgid ""
 "Could not regain access to the device after applying the configuration "
 "changes. You might need to reconnect if you modified network related "
@@ -2431,7 +2589,7 @@ msgstr "צור / הקצה תחום-חומת אש"
 msgid "Create Directory"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1432
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1441
 msgid "Create interface"
 msgstr ""
 
@@ -2453,6 +2611,10 @@ msgstr ""
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dslite.js:45
 msgid "Cross Pass (Japan only)"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:285
+msgid "Cryptography"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:628
@@ -2646,7 +2808,7 @@ msgstr ""
 msgid "DSCP"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1799
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1811
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/50_dsl.js:37
 msgid "DSL"
 msgstr ""
@@ -2655,7 +2817,7 @@ msgstr ""
 msgid "DSL Status"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1850
 msgid "DSL line mode"
 msgstr ""
 
@@ -2712,7 +2874,7 @@ msgstr ""
 msgid "Default"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1762
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1771
 msgid "Default DUID"
 msgstr ""
 
@@ -2773,14 +2935,22 @@ msgstr ""
 msgid "Delay before enabling port after MII link up event (msec)"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1234
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:115
+msgid "Delay n seconds after connection"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:73
+msgid "Delay tun/tap open and up script execution"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1243
 msgid "Delegate IPv6 prefixes"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2500
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3255
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3259
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4263
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4267
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3515
 #: modules/luci-compat/luasrc/view/cbi/nsection.htm:11
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:162
@@ -2879,8 +3049,8 @@ msgstr "אזור היעד"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:54
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:93
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:609
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1382
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1706
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1391
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1715
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:71
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:184
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:211
@@ -2920,7 +3090,7 @@ msgstr "שם המכשיר"
 msgid "Device not managed by ModemManager."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1675
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1684
 msgid "Device not present"
 msgstr ""
 
@@ -2928,7 +3098,7 @@ msgstr ""
 msgid "Device type"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5364
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5369
 msgid "Device unreachable!"
 msgstr ""
 
@@ -2936,7 +3106,8 @@ msgstr ""
 msgid "Device unreachable! Still waiting for device..."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1516
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:286
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr ""
@@ -2962,12 +3133,20 @@ msgid ""
 "Advertisement\">RA</abbr> messages."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:156
+msgid "Diffie-Hellman parameters"
+msgstr ""
+
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:140
 msgid "Dir"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3219
 msgid "Directory"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:252
+msgid "Directory for custom client config files"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3274
@@ -2990,7 +3169,7 @@ msgid ""
 "e.g. <code>dnsmasq</code>."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1788
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1800
 msgid ""
 "Directs packet flows to specific CPUs where the local socket owner listens "
 "(the local service)."
@@ -3014,12 +3193,24 @@ msgstr ""
 msgid "Disable DNS lookups"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:153
+msgid "Disable Data Channel Offloading (DCO) support"
+msgstr ""
+
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:93
 msgid "Disable Encryption"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1253
 msgid "Disable Inactivity Polling"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:58
+msgid "Disable Paging"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:59
+msgid "Disable options consistency check"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:616
@@ -3032,7 +3223,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1138
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1144
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1779
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1010
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1752
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1948
@@ -3057,6 +3248,10 @@ msgstr ""
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:514
 msgctxt "Label indicating that WireGuard peer is disabled"
 msgid "Disabled"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1222
+msgid "Disables this interface for MPTCP"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1267
@@ -3094,10 +3289,10 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:633
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3601
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3879
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3893
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4383
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5335
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3883
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3897
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4388
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5340
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2203
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:360
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:54
@@ -3129,6 +3324,11 @@ msgstr ""
 msgid ""
 "Dnsmasq instance to which this boot section is bound. If unspecified, the "
 "section is valid for all dnsmasq instances."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:27
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:108
+msgid "Do not bind to local address and port"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:669
@@ -3221,6 +3421,42 @@ msgstr ""
 msgid "Don't Fragment"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:111
+msgid "Don't actually execute ifconfig"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:116
+msgid "Don't add routes automatically"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:227
+msgid "Don't cache --askpass or --auth-user-pass passwords"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:118
+msgid "Don't drop incoming tun packets with same destination as host"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:244
+msgid "Don't inherit global push options"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:96
+msgid "Don't log timestamps"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:117
+msgid "Don't pull routes automatically"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:139
+msgid "Don't re-read key on restart"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:112
+msgid "Don't warn on ifconfig inconsistencies"
+msgstr ""
+
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:152
 msgid "Down"
 msgstr ""
@@ -3241,8 +3477,12 @@ msgstr ""
 msgid "Download mtdblock"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1843
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1855
 msgid "Downstream SNR offset"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:456
+msgid "Drag and drop an ovpn config file here"
 msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:407
@@ -3385,9 +3625,13 @@ msgid ""
 "package manager."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:91
+msgid "Echo parameters to log"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3220
 #: modules/luci-base/htdocs/luci-static/resources/form.js:3223
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4097
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4101
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:154
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:160
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:514
@@ -3493,6 +3737,10 @@ msgstr ""
 msgid "Emits netlink LLADDR miss notifications"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:120
+msgid "Empirically measure MTU"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:952
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:993
 msgid "Enable"
@@ -3572,6 +3820,14 @@ msgstr ""
 msgid "Enable NTP client"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
+msgid "Enable OpenSSL hardware crypto engines"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:119
+msgid "Enable Path MTU discovery"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1682
 msgid "Enable Private PSK (PPSK)"
 msgstr ""
@@ -3580,9 +3836,21 @@ msgstr ""
 msgid "Enable Single DES"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:43
+msgid "Enable Static Key encryption mode (non-TLS)"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:548
 msgid "Enable TFTP server"
 msgstr "אפשר שרת TFTP"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:173
+msgid "Enable TLS and assume client role"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:172
+msgid "Enable TLS and assume server role"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1279
 msgid "Enable VLAN filtering"
@@ -3607,9 +3875,13 @@ msgid ""
 "Secure\">HTTPS</abbr> port."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1234
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1243
 msgid ""
 "Enable downstream delegation of IPv6 prefixes available on this interface"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:126
+msgid "Enable internal datagram fragmentation"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2149
@@ -3619,6 +3891,10 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:187
 msgid "Enable learning and aging"
 msgstr "אפשר למידה והזדקנות"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:144
+msgid "Enable management interface on <em>IP</em> <em>port</em>"
+msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/switch.js:198
 msgid "Enable mirroring of incoming packets"
@@ -3651,7 +3927,7 @@ msgstr ""
 msgid "Enable or disable DHCPv4 services on this interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1778
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1790
 msgid "Enable packet steering across CPUs. May help or hinder network speed."
 msgstr ""
 
@@ -3704,7 +3980,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1137
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1143
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1792
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1949
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2131
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:222
@@ -3715,7 +3991,7 @@ msgstr ""
 msgid "Enabled"
 msgstr "פעילה"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1781
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1793
 msgid "Enabled (all CPUs)"
 msgstr ""
 
@@ -3756,9 +4032,18 @@ msgstr ""
 msgid "Encapsulation limit"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1833
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1891
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1845
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1903
 msgid "Encapsulation mode"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:225
+msgid "Encrypt and authenticate all control channel packets with the key"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:226
+msgid ""
+"Encrypt and authenticate all control channel packets with the key, version 2."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:167
@@ -3768,6 +4053,10 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:156
 msgid "Encryption"
 msgstr "הצפנה"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:163
+msgid "Encryption cipher for packets"
+msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:64
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:84
@@ -3864,6 +4153,30 @@ msgstr ""
 msgid "Exclude interfaces"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:78
+msgid "Execute shell cmd after routes are added"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:77
+msgid "Execute shell cmd before routes are added"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:79
+msgid "Execute shell command on remote IP change"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:88
+msgid ""
+"Executed in server mode on new client connections, when the client is still "
+"untrusted"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:87
+msgid ""
+"Executed in server mode whenever an IPv4 address/route or MAC address is "
+"added to OpenVPN's internal routing table"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/diagnostics.js:155
 msgid ""
 "Execution of various network commands to check the connection and name "
@@ -3884,6 +4197,10 @@ msgstr ""
 msgid "Existing device"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:223
+msgid "Exit on TLS negotiation failure"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:218
 msgid "Expand hosts"
 msgstr ""
@@ -3902,7 +4219,7 @@ msgstr ""
 msgid "Expected port number."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1251
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1260
 msgid "Expecting a hexadecimal assignment hint"
 msgstr ""
 
@@ -3930,6 +4247,10 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:83
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:87
 msgid "Expecting: %s"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:287
+msgid "Expert Settings"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:65
@@ -4045,7 +4366,7 @@ msgstr ""
 msgid "Failed to configure modem"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5323
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5328
 msgid "Failed to confirm apply within %ds, waiting for rollback…"
 msgstr ""
 
@@ -4227,7 +4548,7 @@ msgstr ""
 msgid "Firewall mark"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1850
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1862
 msgid "Firmware File"
 msgstr ""
 
@@ -4280,6 +4601,11 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:211
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:211
 msgid "For multicast, an outgoing interface (%s) needs to be specified"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1221
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+msgid "For packets originating from this device, e.g. VPN."
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:607
@@ -4340,7 +4666,7 @@ msgstr ""
 msgid "Force broadcast DHCP response."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1498
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
 msgid "Force link"
 msgstr ""
 
@@ -4414,7 +4740,7 @@ msgstr ""
 msgid "Forwarding DataBase"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1898
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1910
 msgid "Forwarding mode"
 msgstr ""
 
@@ -4428,6 +4754,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1019
 msgid "Fragmentation Threshold"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:393
+msgid "Freeform metadata to embed into the client key"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routesj.js:163
@@ -4533,7 +4863,7 @@ msgid "General Settings"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:673
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1885
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1897
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:979
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1048
 msgid "General Setup"
@@ -4541,6 +4871,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:436
 msgid "General device options"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:401
+msgid "Generate"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:129
@@ -4588,6 +4922,10 @@ msgstr ""
 msgid "Generating QR code…"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:158
+msgid "Get certificate password from file before we daemonize"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:79
 msgid "Given password confirmation did not match, password not changed!"
 msgstr ""
@@ -4596,7 +4934,7 @@ msgstr ""
 msgid "Global Settings"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1752
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1761
 msgid "Global network options"
 msgstr ""
 
@@ -4615,7 +4953,7 @@ msgid "Go to password configuration..."
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2933
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4461
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4465
 #: modules/luci-compat/luasrc/view/cbi/full_valueheader.htm:4
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:58
 msgid "Go to relevant configuration page"
@@ -4656,6 +4994,10 @@ msgstr ""
 
 #: protocols/luci-proto-openfortivpn/root/usr/share/rpcd/acl.d/luci-openfortivpn.json:3
 msgid "Grant access to LuCI openfortivpn procedures"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/root/usr/share/rpcd/acl.d/luci-openvpn.json:3
+msgid "Grant access to LuCI openvpn procedures"
 msgstr ""
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:21
@@ -4772,6 +5114,10 @@ msgstr ""
 msgid "HE.net username"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:159
+msgid "HMAC authentication for packets"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:118
 msgid "HTTP error %d"
 msgstr ""
@@ -4785,6 +5131,14 @@ msgstr ""
 msgid "Half Duplex"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:264
+msgid "Handling of authentication failures"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1226
+msgid "Handover"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:46
 msgid "Hang Up"
 msgstr ""
@@ -4795,6 +5149,13 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1032
 msgid "Hello interval"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:40
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:133
+msgid ""
+"Helper directive to simplify the expression of --ping and --ping-restart in "
+"server mode configurations"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:109
@@ -4895,6 +5256,12 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:836
 msgid "Hosts file"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1225
+msgid ""
+"Hot standby; use this interface; do not forward traffic until no other "
+"interface is available (faster)"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/timer.js:19
@@ -5215,7 +5582,7 @@ msgstr ""
 msgid "IPv6 Token"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1756
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1765
 msgid "IPv6 ULA-Prefix"
 msgstr ""
 
@@ -5236,12 +5603,12 @@ msgstr ""
 msgid "IPv6 addresses"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1242
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1251
 #: protocols/luci-proto-hnet/htdocs/luci-static/resources/protocol/hnet.js:27
 msgid "IPv6 assignment hint"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1237
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1246
 msgid "IPv6 assignment length"
 msgstr ""
 
@@ -5258,7 +5625,7 @@ msgstr ""
 msgid "IPv6 only"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1286
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1295
 msgid "IPv6 preference"
 msgstr ""
 
@@ -5267,7 +5634,7 @@ msgstr ""
 msgid "IPv6 prefix"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1259
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1268
 msgid "IPv6 prefix filter"
 msgstr ""
 
@@ -5282,11 +5649,11 @@ msgstr ""
 msgid "IPv6 routed prefix"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1230
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1239
 msgid "IPv6 source routing"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1282
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1291
 msgid "IPv6 suffix"
 msgstr ""
 
@@ -5361,13 +5728,17 @@ msgid ""
 "affect outgoing peerings, nor link-local peers discovered via multicast."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:274
+msgid "If hostname resolve fails, retry"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1111
 msgid ""
 "If left unspecified, the device will announce itself as DNS server unless "
 "the <em>Local IPv6 DNS server</em> option is disabled."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1259
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1268
 msgid ""
 "If set, downstream subnets are only allocated from the given IPv6 prefix "
 "classes."
@@ -5941,8 +6312,20 @@ msgstr ""
 msgid "Jumps to another rule specified by its priority value"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:140
+msgid "Keep local IP address on restart"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:141
+msgid "Keep remote IP address on restart"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:230
 msgid "Keep settings and retain the current configuration"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:138
+msgid "Keep tun/tap device open on restart"
 msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:69
@@ -6000,8 +6383,16 @@ msgctxt "Label indicating that WireGuard peer lacks public key"
 msgid "Key missing"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:221
+msgid "Key transition window"
+msgstr ""
+
 #: protocols/luci-proto-unet/htdocs/luci-static/resources/protocol/unet.js:44
 msgid "Key used to sign network config"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:288
+msgid "Keygen"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:77
@@ -6062,7 +6453,7 @@ msgstr ""
 msgid "LED Configuration"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1892
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1904
 msgid "LLC"
 msgstr ""
 
@@ -6188,12 +6579,16 @@ msgstr ""
 msgid "Legacy rules detected"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5194
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5199
 msgid "Legend:"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:769
 msgid "Limit"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:95
+msgid "Limit repeated log messages"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:663
@@ -6365,7 +6760,7 @@ msgstr ""
 msgid "Load configuration…"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1428
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1437
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2425
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:182
 msgid "Loading data…"
@@ -6467,13 +6862,17 @@ msgstr ""
 msgid "Local Time"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1260
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1269
 msgid "Local ULA"
 msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:48
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:48
 msgid "Local VTEP"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:33
+msgid "Local certificate"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:400
@@ -6484,6 +6883,14 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:401
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:215
 msgid "Local domain suffix appended to DHCP names and hosts file entries."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:101
+msgid "Local host name or IP address"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:34
+msgid "Local private key"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:623
@@ -6571,6 +6978,7 @@ msgid "Log queries"
 msgstr ""
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:118
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:289
 msgid "Logging"
 msgstr ""
 
@@ -6617,7 +7025,7 @@ msgstr ""
 msgid "MAC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1728
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1737
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:51
 msgid "MAC Address"
 msgstr ""
@@ -6631,7 +7039,7 @@ msgid "MAC Addresses"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:456
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1693
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1702
 msgid "MAC VLAN"
 msgstr ""
 
@@ -6693,7 +7101,7 @@ msgid "MII link monitoring"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1090
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1740
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1749
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:91
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:83
@@ -6712,10 +7120,26 @@ msgstr ""
 msgid "Mail"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:100
+msgid "Major mode"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:282
 msgid ""
 "Make sure to clone the root filesystem using something like the commands "
 "below:"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:290
+msgid "Management"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:148
+msgid "Management cert"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:149
+msgid "Management key"
 msgstr ""
 
 #: protocols/luci-proto-3g/htdocs/luci-static/resources/protocol/3g.js:122
@@ -6730,6 +7154,10 @@ msgstr ""
 
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:82
 msgid "Manufacturer"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1224
+msgid "Master"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3983
@@ -6870,6 +7298,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:769
 msgid "Maximum number of leased addresses."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:257
+msgid "Maximum number of queued TCP output packets"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1147
@@ -7187,6 +7619,12 @@ msgstr ""
 msgid "Multi To Unicast"
 msgstr ""
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1219
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1220
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1776
+msgid "Multi-Path TCP"
+msgstr ""
+
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:89
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:94
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:91
@@ -7273,10 +7711,10 @@ msgid "NUD"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2911
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4947
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4952
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:27
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:117
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1359
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1368
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/leds.js:63
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/repokeys.js:236
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:45
@@ -7384,7 +7822,7 @@ msgid "Network bridge configuration migration"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:449
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1702
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1711
 msgid "Network device"
 msgstr ""
 
@@ -7413,6 +7851,10 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:57
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:62
 msgid "Network interface"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:291
+msgid "Networking"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1257
@@ -7446,11 +7888,11 @@ msgctxt "Dnsmasq instance"
 msgid "New instance name…"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1414
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1423
 msgid "New interface for \"%s\" can not be created: %s"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1362
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1371
 msgid "New interface name…"
 msgstr ""
 
@@ -7462,7 +7904,7 @@ msgstr ""
 msgid "Next »"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:5127
+#: modules/luci-base/htdocs/luci-static/resources/form.js:5131
 msgid "No"
 msgstr ""
 
@@ -7626,8 +8068,12 @@ msgstr ""
 msgid "No rules in this chain."
 msgstr ""
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1223
+msgid "No special configuration"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1459
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1468
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "No zone assigned"
 msgstr ""
@@ -7753,7 +8199,7 @@ msgid ""
 "which should no longer be used)."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1789
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1801
 msgid ""
 "Note: this setting is for local services on the device only (not for "
 "forwarding)."
@@ -7780,8 +8226,16 @@ msgstr ""
 msgid "Nslookup"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:256
+msgid "Number of allocated broadcast buffers"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:742
 msgid "Number of cached DNS entries, 10000 is maximum, 0 is no caching."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+msgid "Number of lines for log file history"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:783
@@ -7817,13 +8271,14 @@ msgstr ""
 msgid "Obtain IPv6 address"
 msgstr ""
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1222
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:19
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:87
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:345
 msgid "Off"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1780
 msgid ""
 "Off means VRF traffic will be handled exclusively by sockets bound to VRFs."
 msgstr ""
@@ -7844,6 +8299,7 @@ msgid ""
 "file"
 msgstr ""
 
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1223
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/led-trigger/none.js:19
 msgid "On"
 msgstr ""
@@ -7918,6 +8374,10 @@ msgid ""
 "at any given time."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:137
+msgid "Only process ping timeouts if routes exist"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:783
 msgid "Open iptables rules overview…"
 msgstr ""
@@ -7936,6 +8396,10 @@ msgstr ""
 
 #: protocols/luci-proto-openfortivpn/htdocs/luci-static/resources/protocol/openfortivpn.js:63
 msgid "OpenFortivpn"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:326
+msgid "OpenVPN"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:806
@@ -7977,8 +8441,12 @@ msgstr ""
 msgid "Operator Name"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:64
+msgid "Optimize TUN/TAP/UDP writes"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/form.js:2139
-#: modules/luci-base/htdocs/luci-static/resources/form.js:5140
+#: modules/luci-base/htdocs/luci-static/resources/form.js:5144
 msgid "Option \"%s\" contains an invalid input value."
 msgstr ""
 
@@ -7986,11 +8454,11 @@ msgstr ""
 msgid "Option \"%s\" must not be empty."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5201
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5206
 msgid "Option changed"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5203
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5208
 msgid "Option removed"
 msgstr ""
 
@@ -8020,7 +8488,7 @@ msgid ""
 "hex, starting with <code>0x</code>."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1282
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1291
 msgid ""
 "Optional. Allowed values: 'eui64', 'random', fixed value like '::1' or "
 "'::1:2'. When IPv6 prefix (like 'a:b:c:d::') is received from a delegating "
@@ -8099,6 +8567,14 @@ msgstr ""
 msgid "Options"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:367
+msgid "Options marked with ² are OpenSSL only."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:365
+msgid "Options marked with ¹ are deprecated and will be removed."
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:686
 msgid "Options to be added for this tag."
 msgstr ""
@@ -8171,11 +8647,11 @@ msgstr ""
 msgid "Overlap"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1219
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1228
 msgid "Override IPv4 routing table"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1224
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1233
 msgid "Override IPv6 routing table"
 msgstr ""
 
@@ -8327,6 +8803,10 @@ msgstr ""
 msgid "PIO directory"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:45
+msgid "PKCS#12 file containing keys"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1915
 msgid "PMK R1 Push"
 msgstr ""
@@ -8373,7 +8853,7 @@ msgctxt "Label indicating that WireGuard peer uses a PSK"
 msgid "PSK"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1836
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1848
 msgid "PTM/EFM (Packet Transfer Mode)"
 msgstr ""
 
@@ -8389,7 +8869,7 @@ msgstr ""
 msgid "Packet Service State"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1778
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1790
 msgid "Packet Steering"
 msgstr ""
 
@@ -8422,9 +8902,17 @@ msgstr[0] ""
 msgstr[1] ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:151
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1459
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1468
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:332
 msgid "Part of zone %q"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:80
+msgid "Pass environment variables to script"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:81
+msgid "Pass environment variables to script prepended with OPENVPN_"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:550
@@ -8493,6 +8981,10 @@ msgstr ""
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:415
 msgid "Paste or drag supplied WireGuard configuration file…"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:419
+msgid "Path"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1999
@@ -8617,6 +9109,14 @@ msgstr ""
 msgid "Permission denied"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:171
+msgid "Persist replay-protection state"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:247
+msgid "Persist/unpersist ifconfig-pool"
+msgstr ""
+
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:653
 msgid "Persistent Keep Alive"
 msgstr ""
@@ -8643,6 +9143,10 @@ msgstr ""
 msgid "Ping"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:134
+msgid "Ping remote every n seconds over TCP/UDP port"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:57
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:58
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:97
@@ -8656,7 +9160,7 @@ msgstr ""
 msgid "Please enter your username and password."
 msgstr "נא למלא את שם המשתמש והסיסמה שלך."
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4930
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4935
 msgid "Please select the file to upload."
 msgstr "נא לבחור את הקובץ להעלאה."
 
@@ -8691,6 +9195,10 @@ msgstr ""
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/iptables.js:54
 msgid "Policy"
 msgstr "מדיניות"
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:71
+msgid "Policy level over usage of external programs and scripts"
+msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:695
 msgctxt "Chain hook policy"
@@ -8897,7 +9405,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:92
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:593
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1376
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1385
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:511
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/30_network.js:60
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:190
@@ -8937,6 +9445,10 @@ msgstr ""
 
 #: protocols/luci-proto-openconnect/htdocs/luci-static/resources/protocol/openconnect.js:151
 msgid "Proxy Server"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:270
+msgid "Proxy timeout in seconds"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1971
@@ -8984,6 +9496,18 @@ msgstr ""
 msgid "PublicKey setting is invalid"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:292
+msgid "Push"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:248
+msgid "Push an ifconfig option to remote"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:243
+msgid "Push options to peer"
+msgstr ""
+
 #: modules/luci-compat/luasrc/model/network/proto_qmi.lua:9
 #: protocols/luci-proto-qmi/htdocs/luci-static/resources/protocol/qmi.js:27
 msgid "QMI Cellular"
@@ -9019,6 +9543,10 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1066
 msgid "Query interval"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:145
+msgid "Query management channel for private key"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1071
@@ -9134,8 +9662,16 @@ msgctxt "nft nat flag random"
 msgid "Randomize source port mapping"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:266
+msgid "Randomly choose remote server"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:501
 msgid "Raw Data"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:453
+msgid "Raw OVPN config"
 msgstr ""
 
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:104
@@ -9249,6 +9785,10 @@ msgstr ""
 msgid "Refreshing"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:253
+msgid "Refuse connection if no custom client config"
+msgstr ""
+
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:102
 msgid "Registration State"
 msgstr ""
@@ -9330,6 +9870,10 @@ msgstr ""
 msgid "Remaining time"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:65
+msgid "Remap SIGUSR1 signals"
+msgstr ""
+
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6in4.js:50
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/6rd.js:49
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:41
@@ -9356,6 +9900,14 @@ msgstr ""
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:43
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:43
 msgid "Remote VTEP"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:31
+msgid "Remote host name or IP address"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:135
+msgid "Remote ping timeout"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:962
@@ -9404,7 +9956,7 @@ msgctxt "Dnsmasq instance"
 msgid "Remove instance #%d"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1560
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1569
 msgid "Remove related device settings from the configuration"
 msgstr ""
 
@@ -9416,8 +9968,25 @@ msgstr ""
 msgid "Removes records of the specified type(s) from answers."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:217
+msgid "Renegotiate data chan. key after bytes"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:218
+msgid "Renegotiate data chan. key after packets"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:219
+msgid "Renegotiate data chan. key after seconds"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2462
 msgid "Replace wireless configuration"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:168
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:169
+msgid "Replay protection sliding window size"
 msgstr ""
 
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan.js:108
@@ -9449,6 +10018,15 @@ msgstr ""
 msgid "Request timeout"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:229
+msgid "Require explicit designation on certificate"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:231
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:232
+msgid "Require explicit key usage on certificate"
+msgstr ""
+
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:100
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:105
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:102
@@ -9461,6 +10039,10 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:104
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:109
 msgid "Require incoming packets serialization (optional)."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:230
+msgid "Require remote cert extended key usage on certificate"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1754
@@ -9492,6 +10074,10 @@ msgstr ""
 msgid ""
 "Required: Rejects auth if RADIUS server does not provide appropriate VLAN "
 "attributes."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:30
+msgid "Requires --tls-server, --tls-client, or --secret"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1400
@@ -9640,6 +10226,10 @@ msgstr ""
 msgid "Restart Firewall"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:136
+msgid "Restart after remote ping timeout"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:928
 msgid "Restart radio interface"
 msgstr ""
@@ -9652,9 +10242,25 @@ msgstr "שחזור"
 msgid "Restore backup"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:239
+msgid "Restrict the allowed ciphers to be negotiated"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:216
+msgid "Retransmit timeout on TLS control channel"
+msgstr ""
+
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:369
 msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:269
+msgid "Retry indefinitely on HTTP proxy errors"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
+msgid "Retry indefinitely on Socks proxy errors"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:390
@@ -9670,19 +10276,19 @@ msgstr ""
 msgid "Reverse sort"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5223
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5228
 msgid "Revert"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5339
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5344
 msgid "Revert changes"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5555
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5560
 msgid "Revert request failed with status <code>%h</code>"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5535
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5540
 msgid "Reverting configuration…"
 msgstr ""
 
@@ -9773,8 +10379,16 @@ msgstr ""
 msgid "Route short-circuit (RSC)"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:249
+msgid "Route subnet to client"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:49
 msgid "Route type"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
+msgid "Route v6 subnet to client"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1018
@@ -9864,6 +10478,26 @@ msgid ""
 "address or interface."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:86
+msgid "Run script cmd for client TLS verification"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:83
+msgid "Run script cmd on client connection"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:85
+msgid "Run script cmd on client disconnection"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:84
+msgid "Run script cmd to validate client certificates"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:76
+msgid "Run up/down scripts for all restarts"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2382
 msgid "Runtime error"
 msgstr ""
@@ -9944,7 +10578,7 @@ msgstr ""
 msgid "SWAP"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:3898
+#: modules/luci-base/htdocs/luci-static/resources/form.js:3902
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2215
 #: modules/luci-compat/luasrc/view/cbi/error.htm:17
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:26
@@ -9955,7 +10589,7 @@ msgid "Save"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/luci.js:2197
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5211
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5216
 #: modules/luci-compat/luasrc/view/cbi/footer.htm:22
 msgid "Save & Apply"
 msgstr ""
@@ -9989,6 +10623,10 @@ msgstr ""
 msgid "Scheduling daemon"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:293
+msgid "Scripting"
+msgstr ""
+
 #: modules/luci-base/htdocs/luci-static/resources/tools/views.js:154
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:144
 msgctxt "scroll to top (the head) of the log file"
@@ -10010,11 +10648,11 @@ msgstr ""
 msgid "Section %s is empty."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5197
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5202
 msgid "Section added"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5199
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5204
 msgid "Section removed"
 msgstr ""
 
@@ -10074,6 +10712,10 @@ msgstr ""
 msgid "Send multicast beacon"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:265
+msgid "Send notification to peer on disconnect"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:693
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:734
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:767
@@ -10093,8 +10735,16 @@ msgstr ""
 msgid "Server address"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:384
+msgid "Server key"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:582
 msgid "Server name"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:294
+msgid "Service"
 msgstr ""
 
 #: protocols/luci-proto-ppp/htdocs/luci-static/resources/protocol/pppoe.js:56
@@ -10133,6 +10783,14 @@ msgstr ""
 msgid "Set an arbitrary resource record (RR) type."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:246
+msgid "Set aside a pool of subnets"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:271
+msgid "Set extended HTTP proxy options"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:132
 msgctxt "nft mangle"
 msgid "Set header field <var>%s</var> to <strong>%s</strong>"
@@ -10142,7 +10800,7 @@ msgstr ""
 msgid "Set interface as NDP-Proxy external slave. Default is off."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1498
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1507
 msgid ""
 "Set interface properties regardless of the link carrier (If set, carrier "
 "sense events do not invoke hotplug handlers)."
@@ -10151,6 +10809,22 @@ msgstr ""
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:456
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:769
 msgid "Set log class/facility for syslog entries."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:97
+msgid "Set output verbosity"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:255
+msgid "Set size of real and virtual address hash tables"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:129
+msgid "Set the TCP/UDP receive buffer size"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:128
+msgid "Set the TCP/UDP send buffer size"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:893
@@ -10166,6 +10840,23 @@ msgid ""
 "proxying."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:130
+msgid "Set tun/tap TX queue length"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:35
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:36
+msgid "Set tun/tap adapter parameters"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:124
+msgid "Set tun/tap device MTU"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:125
+msgid "Set tun/tap device overhead"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:688
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:704
 msgid "Set up DHCP Server"
@@ -10173,6 +10864,14 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1184
 msgid "Set up routes for proxied IPv6 neighbours."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:127
+msgid "Set upper bound on TCP MSS"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1224
+msgid "Sets default route for all traffic"
 msgstr ""
 
 #: modules/luci-compat/luasrc/model/network/proto_modemmanager.lua:55
@@ -10201,6 +10900,22 @@ msgstr ""
 msgid ""
 "Settings for assisting wireless clients in roaming between multiple APs: "
 "802.11r, 802.11k and 802.11v"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:131
+msgid "Shaping for peer bandwidth"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:72
+msgid "Shell cmd to execute after tun device open"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:74
+msgid "Shell cmd to run after tun device close"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:82
+msgid "Shell command to verify X509 name"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:215
@@ -10263,7 +10978,11 @@ msgstr ""
 msgid "Signal:"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4948
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:170
+msgid "Silence the output of replay warnings"
+msgstr ""
+
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4953
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:224
 msgid "Size"
 msgstr ""
@@ -10554,6 +11273,10 @@ msgid ""
 "<code>00..FF</code> (optional)."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:114
+msgid "Specify a placeholder gateway for routes"
+msgstr ""
+
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:64
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:69
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6.js:69
@@ -10569,6 +11292,10 @@ msgid ""
 "bytes)."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:167
+msgid "Specify the curve to use for ECDH"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:806
 msgid ""
 "Specify the number of peer notifications to be issued after a failover event."
@@ -10578,11 +11305,15 @@ msgstr ""
 msgid "Specify the secret encryption key here."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:276
+msgid "Specify whether the client is required to supply a valid certificate"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/29_ports.js:222
 msgid "Speed: %d Mbit/s, Duplex: %s"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1816
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1828
 msgid "Splitterless ADSL (G.992.2) Annex A"
 msgstr ""
 
@@ -10599,7 +11330,7 @@ msgstr ""
 msgid "Stale neighbour cache timeout"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1790
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1802
 msgid "Standard: none"
 msgstr ""
 
@@ -10611,6 +11342,10 @@ msgstr ""
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:98
 msgctxt "daemon start action"
 msgid "Start"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:146
+msgid "Start OpenVPN in a hibernating state"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:146
@@ -10625,7 +11360,7 @@ msgstr ""
 msgid "Start refresh"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5459
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5464
 msgid "Starting configuration apply…"
 msgstr ""
 
@@ -10684,7 +11419,11 @@ msgstr ""
 msgid "Status"
 msgstr "מצב"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1787
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:67
+msgid "Status file format version"
+msgstr ""
+
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1799
 msgid "Steering flows (<abbr title=\"Receive Packet Steering\">RPS</abbr>)"
 msgstr ""
 
@@ -10727,7 +11466,7 @@ msgstr ""
 msgid "Submit"
 msgstr "שלח"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1791
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1803
 msgid "Suggested: 128"
 msgstr ""
 
@@ -10857,7 +11596,7 @@ msgstr ""
 msgid "System running in recovery (initramfs) mode."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1770
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1782
 msgid "TCP Layer 3 Master Device (tcp_l3mdev) accept"
 msgstr ""
 
@@ -10881,12 +11620,41 @@ msgctxt "nft tcp sport"
 msgid "TCP source port"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:26
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:102
+msgid "TCP/UDP port # for both local and remote"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:103
+msgid "TCP/UDP port # for local"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:104
+msgid "TCP/UDP port # for remote"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/connections.js:440
 msgid "TCP:"
 msgstr "TCP:"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:553
 msgid "TFTP server root"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:214
+msgid "TLS 1.3 or newer cipher"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:236
+msgid "TLS cet profile"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:175
+msgid "TLS cipher"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:62
+msgid "TOS passthrough (applies to IPv4 only)"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:58
@@ -11160,14 +11928,14 @@ msgstr ""
 msgid "The default (%s) is zero for both IPv4 and IPv6."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1763
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1772
 msgid ""
 "The default <abbr title=\"DHCP Unique Identifier\">DUID</abbr> for this "
 "device, used when acting as a DHCP server or client. The client identifier "
 "can be overridden on a per-interface basis."
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5330
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5335
 msgid ""
 "The device could not be reached within %d seconds after applying the pending "
 "changes, which caused the configuration to be rolled back for safety "
@@ -11252,6 +12020,10 @@ msgid ""
 "a></abbr> for this host (up to 16 chars, i.e. 64 bits)."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
+msgid "The highest supported TLS version"
+msgstr ""
+
 #: protocols/luci-proto-batman-adv/htdocs/luci-static/resources/protocol/batadv.js:93
 msgid ""
 "The hop penalty setting allows to modify batman-adv's preference for "
@@ -11272,12 +12044,16 @@ msgstr ""
 msgid "The interface could not be found"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1365
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1374
 msgid "The interface name is already used"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1371
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1380
 msgid "The interface name is too long"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:44
+msgid "The key direction for 'tls-auth' and 'secret' options"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:861
@@ -11308,6 +12084,10 @@ msgstr ""
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/grev6tap.js:53
 #: protocols/luci-proto-vxlan/htdocs/luci-static/resources/protocol/vxlan6.js:47
 msgid "The local IPv6 address over which the tunnel is created (optional)."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:234
+msgid "The lowest supported TLS version"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1085
@@ -11349,6 +12129,10 @@ msgid ""
 "Network'>VLAN</abbr>s are often used to separate different network segments. "
 "Often there is by default one Uplink port for a connection to the next "
 "greater network like the internet and other ports for a local network."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:46
+msgid "The peer key fingerprint"
 msgstr ""
 
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:230
@@ -11473,8 +12257,8 @@ msgid ""
 "you choose the generic image format for your platform."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1736
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1748
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1745
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1757
 msgid "The value is overridden by configuration."
 msgstr ""
 
@@ -11495,7 +12279,7 @@ msgstr ""
 msgid "There are no active leases"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5502
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5507
 msgid "There are no changes to apply"
 msgstr ""
 
@@ -11525,7 +12309,7 @@ msgstr ""
 msgid "This does not look like a valid PEM file"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1764
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1773
 msgid ""
 "This identifier is randomly generated the first time the device is booted."
 msgstr ""
@@ -11642,7 +12426,7 @@ msgid ""
 "This page displays the wireless metrics for each available radio interface."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1759
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1768
 msgid "This prefix is randomly generated at first install."
 msgstr ""
 
@@ -11698,6 +12482,10 @@ msgstr ""
 msgid "Timed-out"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:220
+msgid "Timeframe for key exchange"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1201
 msgid "Timeout in seconds"
 msgstr ""
@@ -11741,8 +12529,12 @@ msgstr ""
 msgid "Toggle IPv6 PD via DHCPv6."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1825
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1837
 msgid "Tone"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:295
+msgid "Topology"
 msgstr ""
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/20_memory.js:35
@@ -11864,7 +12656,7 @@ msgstr ""
 msgid "Tunnel Link"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1690
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1699
 msgid "Tunnel device"
 msgstr ""
 
@@ -11877,9 +12669,10 @@ msgid "Tx-Power"
 msgstr "עוצמת שידור"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:53
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1724
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1733
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:374
 msgid "Type"
 msgstr ""
 
@@ -11887,11 +12680,15 @@ msgstr ""
 msgid "Type of service"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:51
+msgid "Type of used device"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:646
 msgid "UC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1774
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1786
 msgid "UDP Layer 3 Master Device (udp_l3mdev) accept"
 msgstr ""
 
@@ -11920,7 +12717,7 @@ msgstr "UDP:"
 msgid "UID-range"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1758
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1767
 msgid "ULA for IPv6 is analogous to IPv4 private network addressing."
 msgstr ""
 
@@ -12034,7 +12831,7 @@ msgstr ""
 msgid "Unchecked means the timezone offset (E.g. GMT+1) is displayed"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1559
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1568
 msgid "Unconfigure"
 msgstr ""
 
@@ -12050,7 +12847,7 @@ msgstr ""
 msgid "Unexpected reply data format"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1757
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1766
 msgid ""
 "Unique Local Address (%s) - prefix <code>fd00::/8</code> (the L bit is "
 "always 1)."
@@ -12111,7 +12908,7 @@ msgstr ""
 msgid "Unnamed key"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5136
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5141
 msgid "Unsaved Changes"
 msgstr ""
 
@@ -12155,7 +12952,7 @@ msgstr ""
 msgid "Up"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5022
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5027
 msgid "Upload"
 msgstr ""
 
@@ -12178,17 +12975,17 @@ msgstr ""
 msgid "Upload file…"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4968
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4973
 msgid "Upload has been cancelled"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3359
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:5010
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:5015
 msgid "Upload request failed: %s"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4929
-#: modules/luci-base/htdocs/luci-static/resources/ui.js:4983
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4934
+#: modules/luci-base/htdocs/luci-static/resources/ui.js:4988
 msgid "Uploading file…"
 msgstr ""
 
@@ -12275,6 +13072,10 @@ msgstr ""
 msgid "Use TTL on tunnel interface"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:53
+msgid "Use VLAN tagging"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:274
 msgid "Use as external overlay (/overlay)"
 msgstr ""
@@ -12287,7 +13088,7 @@ msgstr ""
 msgid "Use broadcast flag"
 msgstr "השתמש בדגל broadcast"
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1494
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1503
 msgid "Use builtin IPv6-management"
 msgstr ""
 
@@ -12325,6 +13126,10 @@ msgid ""
 "instead of RFC7597"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:106
+msgid "Use protocol"
+msgstr ""
+
 #: protocols/luci-proto-relay/htdocs/luci-static/resources/protocol/relay.js:179
 msgid "Use routing table"
 msgstr "השתמש בטבלת ניתוב"
@@ -12359,6 +13164,18 @@ msgid ""
 "standard host-specific lease time, e.g. 12h, 3d or infinite."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:55
+msgid "Use these PVIDs"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:52
+msgid "Use tun/tap device node"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:261
+msgid "Use username as common name"
+msgstr ""
+
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/20_memory.js:36
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/mounts.js:173
 msgid "Used"
@@ -12372,6 +13189,10 @@ msgstr ""
 msgid ""
 "Used for two different purposes: RADIUS NAS ID and 802.11r R0KH-ID. Not "
 "needed with normal WPA(2)-PSK."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:43
+msgid "Used with auth and cipher params"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:313
@@ -12417,11 +13238,11 @@ msgstr ""
 msgid "VC"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1893
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1905
 msgid "VC-Mux"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1841
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1853
 msgid "VDSL"
 msgstr ""
 
@@ -12431,12 +13252,12 @@ msgid "VEPA (Virtual Ethernet Port Aggregator)"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:455
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1681
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1690
 msgid "VLAN (802.1ad)"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:454
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1678
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1687
 msgid "VLAN (802.1q)"
 msgstr ""
 
@@ -12569,12 +13390,12 @@ msgid "Via shall be specified when %s is a multicast address"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:457
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1696
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1705
 msgid "Virtual Ethernet"
 msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3055
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1699
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1708
 msgid "Virtual Routing and Forwarding (VRF)"
 msgstr ""
 
@@ -12666,7 +13487,7 @@ msgid ""
 "all known hosts."
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1286
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1295
 msgid ""
 "When delegating prefixes to multiple downstreams, interfaces with a higher "
 "preference value are considered first when allocating subnets."
@@ -12715,6 +13536,13 @@ msgid ""
 "When using a PSK, the PMK can be automatically generated. When enabled, the "
 "R0/R1 key options below are not applied. Disable this to use the R0 and R1 "
 "key options."
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:109
+msgid ""
+"When you have more than one IP address (e.g. multiple interfaces, or "
+"secondary IP addresses), and do not use --local to force binding to one "
+"specific address only"
 msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1211
@@ -12816,6 +13644,10 @@ msgstr "רשת אלחוטית מאופשרת"
 msgid "Workaround mode can only be used when acting as an access point."
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:92
+msgid "Write log to file"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:764
 msgid "Write received DNS queries to syslog."
 msgstr ""
@@ -12824,7 +13656,7 @@ msgstr ""
 msgid "Write system log to file"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:5127
+#: modules/luci-base/htdocs/luci-static/resources/form.js:5131
 msgid "Yes"
 msgstr ""
 
@@ -12905,9 +13737,9 @@ msgid "any"
 msgstr "כלשהו"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:1149
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1826
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1834
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1839
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1838
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1846
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1851
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:88
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:103
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:141
@@ -12950,7 +13782,7 @@ msgstr ""
 msgid "between:"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1899
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1911
 msgid "bridged"
 msgstr ""
 
@@ -13030,7 +13862,7 @@ msgstr "בטל"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:871
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1088
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1177
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1238
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1247
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:99
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dhcpv6.js:26
 msgid "disabled"
@@ -13219,6 +14051,11 @@ msgstr ""
 msgid "mobile home agent (H)"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:80
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:81
+msgid "name value"
+msgstr ""
+
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:55
 msgid "no"
 msgstr "לא"
@@ -13238,7 +14075,7 @@ msgstr ""
 msgid "non-empty value"
 msgstr ""
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4079
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4083
 #: modules/luci-mod-network/htdocs/luci-static/resources/tools/network.js:841
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:916
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:960
@@ -13342,7 +14179,7 @@ msgstr ""
 msgid "relay mode"
 msgstr ""
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1900
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1912
 msgid "routed"
 msgstr "מנותב"
 
@@ -13361,6 +14198,10 @@ msgstr ""
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/views.js:249
 msgid "severity:"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:91
+msgid "some params echoed to log"
 msgstr ""
 
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:58
@@ -13415,6 +14256,14 @@ msgctxt "DHCPv6 address request mode"
 msgid "try"
 msgstr ""
 
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:49
+msgid "tun/tap device"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:132
+msgid "tun/tap inactivity timeout"
+msgstr ""
+
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/uhttpd.js:9
 msgid ""
 "uHTTPd offers <abbr title=\"Hypertext Transfer Protocol\">HTTP</abbr> or "
@@ -13442,7 +14291,7 @@ msgstr "גרסה לא ידועה"
 msgid "unlimited"
 msgstr "ללא הגבלה"
 
-#: modules/luci-base/htdocs/luci-static/resources/form.js:4506
+#: modules/luci-base/htdocs/luci-static/resources/form.js:4510
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:106
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:167
 #: modules/luci-base/htdocs/luci-static/resources/tools/widgets.js:397
