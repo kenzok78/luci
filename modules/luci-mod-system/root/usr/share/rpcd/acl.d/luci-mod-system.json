@@ -56,6 +56,16 @@
 		}
 	},
 
+	"luci-mod-system-plugins": {
+		"description": "Grant access to Plugin management",
+		"read": {
+			"file": {
+				"/usr/share/ucode/luci/*": [ "read" ]
+			},
+			"uci": [ "luci_plugins" ]
+		}
+	},
+
 	"luci-mod-system-uhttpd": {
 		"description": "Grant access to uHTTPd configuration",
 		"read": {

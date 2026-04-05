@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-01-21 05:34+0000\n"
+"PO-Revision-Date: 2026-03-16 23:09+0000\n"
 "Last-Translator: Hyeonjeong Lee <h9101654@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsdawn/ko/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17-dev\n"
 
 #: applications/luci-app-dawn/htdocs/luci-static/resources/view/network/dawn.js:389
 msgid "2.4G Band Metric"
@@ -693,7 +693,7 @@ msgstr "VHT 지원"
 
 #: applications/luci-app-dawn/htdocs/luci-static/resources/view/network/dawn.js:135
 msgid "Verbosity of messages in syslog"
-msgstr "시스로그 내 메시지 상세 수준"
+msgstr "Syslog 메시지의 상세 수준"
 
 #: applications/luci-app-dawn/htdocs/luci-static/resources/view/status/dawn/hearing_map.js:64
 #: applications/luci-app-dawn/htdocs/luci-static/resources/view/status/dawn/network_overview.js:50
