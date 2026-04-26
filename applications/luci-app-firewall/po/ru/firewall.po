@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: firewall\n"
 "POT-Creation-Date: 2013-09-05 16:02+0200\n"
-"PO-Revision-Date: 2026-04-13 10:24+0000\n"
+"PO-Revision-Date: 2026-04-17 12:24+0000\n"
 "Last-Translator: SnIPeRSnIPeR <snipersniper@users.noreply.hosted.weblate.org>"
 "\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && "
 "n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 "Project-Info: Это технический перевод, не дословный. Главное-удобный русский "
 "интерфейс, все проверялось в графическом режиме, совместим с другими apps\n"
 
@@ -475,6 +475,7 @@ msgid "Flow offloading type"
 msgstr "Тип ускорения потоков"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:62
+msgctxt "firewall forward"
 msgid "Forward"
 msgstr "Переадресация"
 
@@ -667,6 +668,7 @@ msgstr "Начальный размер хеша"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:60
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:150
+msgctxt "firewall input"
 msgid "Input"
 msgstr "Входящий трафик"
 
@@ -934,6 +936,7 @@ msgstr "Исходящая зона"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:61
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:151
+msgctxt "firewall output"
 msgid "Output"
 msgstr "Исходящий трафик"
 
@@ -1651,6 +1654,15 @@ msgstr "до 65536 записей."
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
 msgid "valid firewall mark"
 msgstr "верная метка брандмауэра"
+
+#~ msgid "Forward"
+#~ msgstr "Переадресация"
+
+#~ msgid "Input"
+#~ msgstr "Входящий трафик"
+
+#~ msgid "Output"
+#~ msgstr "Исходящий трафик"
 
 #~ msgid "Invalid set name"
 #~ msgstr "Недопустимое имя набора"

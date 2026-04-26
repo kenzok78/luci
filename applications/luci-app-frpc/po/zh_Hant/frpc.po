@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-13 14:31+0000\n"
+"PO-Revision-Date: 2026-04-16 07:27+0000\n"
 "Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsfrpc/zh_Hant/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:214
 msgid "Add new proxy..."
@@ -16,7 +16,7 @@ msgstr "加入新代理..."
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:16
 msgid "Additional configs"
-msgstr "額外設定"
+msgstr "額外配置"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:40
 msgid "Additional settings"
@@ -50,7 +50,7 @@ msgid ""
 "value is 0, the admin server will not be started.<br />By default, this "
 "value is 0."
 msgstr ""
-"AdminPort 指定管理伺服器監聽的連接埠。如果此值為 0，則不會啟動管理伺服器"
+"AdminPort 指定管理伺服器監聽的連接埠。若此值為 0，則不會啟動管理伺服器"
 "。<br />預設情況下，此值為0。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:31
@@ -75,8 +75,8 @@ msgid ""
 "resources from. If this value is \"\", assets will be loaded from the "
 "bundled executable using statik.<br />By default, this value is \"\"."
 msgstr ""
-"AssetsDir 指定管理伺服器載入資源的本地目錄。如果此值為空，將使用 statik 從捆"
-"綁的執行檔中載入資產。<br />此值為預設空。"
+"AssetsDir 指定管理伺服器載入資源的本地目錄。若此值為空，將使用 statik 從組合"
+"執行檔中載入資產。<br />此值為預設空。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:72
 msgid "Bind addr"
@@ -100,7 +100,7 @@ msgstr "壓縮"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:16
 msgid "Config files include in temporary config file"
-msgstr "設定檔包含在臨時設定檔案中"
+msgstr "配置檔包含在臨時配置檔案中"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:57
 msgid "Custom domains"
@@ -182,7 +182,7 @@ msgstr "心跳逾時"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:65
 msgid "Host header rewrite"
-msgstr "主機標頭重置"
+msgstr "主機標頭重寫"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:22
 msgid ""
@@ -190,12 +190,12 @@ msgid ""
 "this value is \"\", the server will be connected to directly.<br />By "
 "default, this value is read from the \"http_proxy\" environment variable."
 msgstr ""
-"HttpProxy 指定通過其連線至伺服器的代理位址。如果此值為空，則伺服器將直接連線"
+"HttpProxy 指定透過其連線至伺服器的代理位址。若此值為空，則伺服器將直接連線"
 "。<br />預設將從環境變數「http_proxy」中讀取此值。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:53
 msgid "If remote_port is 0, frps will assign a random port for you"
-msgstr "如果 remote_port 為 0，frps 會為您分配一個隨機連接埠"
+msgstr "如果遠端連接埠為 0，frps 會分配一個隨機連接埠"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:48
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:224
@@ -209,11 +209,11 @@ msgstr "本地連接埠"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:48
 msgid "LocalIp specifies the IP address or host name to proxy to."
-msgstr "LocalIp 指定要代理的 IP 位址或主機名。"
+msgstr "指定要代理的 IP 位址或主機名。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:49
 msgid "LocalPort specifies the port to proxy to."
-msgstr "LocalPort 指定要代理的連接埠。"
+msgstr "指定要代理的連接埠。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:62
 msgid "Locations"
@@ -272,8 +272,8 @@ msgid ""
 "login attempt. If false, the client will retry until a login attempt "
 "succeeds.<br />By default, this value is true."
 msgstr ""
-"LoginFailExit 控制在嘗試登入失敗後用戶端是否應該退出。如果為 false，則用戶端"
-"將重試，直到成功登入為止。<br />預設為 true。"
+"LoginFailExit 控制在嘗試登入失敗後用戶端是否應該退出。若為 false，則用戶端將"
+"重試，直到成功登入為止。<br />預設為 true。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:165
 msgid "NOT RUNNING"
@@ -281,7 +281,7 @@ msgstr "未執行"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:15
 msgid "OS environments pass to frp for config file template, see %s."
-msgstr "傳遞作業系統環境至frp以取得設定檔模板，請參閱%s。"
+msgstr "傳遞作業系統環境至frp以取得配置檔模板，請參閱%s。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:78
 msgid "Plugin"
@@ -418,8 +418,8 @@ msgid ""
 "must have TCP multiplexing enabled as well.<br />By default, this value is "
 "true."
 msgstr ""
-"TcpMux 切換 TCP 串流多路複用。這允許來自用戶端的多個請求共享一個 TCP 連線。如"
-"果此值為 true，則伺服器也必須啟用 TCP 複用。<br />預設情況下，此值為 true。"
+"TcpMux 切換 TCP 串流多路複用。這允許來自用戶端的多個請求共享一個 TCP 連線。若"
+"此值為 true，則伺服器也必須啟用 TCP 複用。<br />預設情況下，此值為 true。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:40
 msgid ""
@@ -457,7 +457,7 @@ msgid ""
 "encrypted. Encryption is done using the tokens supplied in the server and "
 "client configuration.<br />By default, this value is false."
 msgstr ""
-"UseEncryption 控制是否加密與伺服器的通訊。使用伺服器和用戶端設定中提供的權杖"
+"UseEncryption 控制是否加密與伺服器的通訊。使用伺服器和用戶端配置中提供的權杖"
 "來完成加密。<br />預設情況下，此值為 false。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:34
@@ -470,8 +470,8 @@ msgid ""
 "clients. If this value is not \"\", proxy names will automatically be "
 "changed to \"{user}.{proxy_name}\".<br />By default, this value is \"\"."
 msgstr ""
-"用戶為代理名稱指定首碼，以將其與其他用戶端區分開。如果此值非空，則代理名稱將"
-"自動更改為「{user}.{proxy_name}」。<br />此值預設為空。"
+"用戶為代理名稱指定首碼，以將其與其他用戶端區分開。若此值非空，則代理名稱將自"
+"動更改為「{user}.{proxy_name}」。<br />此值預設為空。"
 
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:163
 #: applications/luci-app-frpc/htdocs/luci-static/resources/view/frpc.js:165

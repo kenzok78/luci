@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-30 17:00+0200\n"
-"PO-Revision-Date: 2026-02-10 18:11+0000\n"
+"PO-Revision-Date: 2026-04-17 12:24+0000\n"
 "Last-Translator: Matthaiks <kitynska@gmail.com>\n"
 "Language-Team: Polish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsfirewall/pl/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
-"X-Generator: Weblate 5.16-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -465,6 +465,7 @@ msgid "Flow offloading type"
 msgstr "Typ flow offloadingu"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:62
+msgctxt "firewall forward"
 msgid "Forward"
 msgstr "Ruch przekazujący"
 
@@ -655,6 +656,7 @@ msgstr "Początkowy rozmiar wartości skrótu"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:60
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:150
+msgctxt "firewall input"
 msgid "Input"
 msgstr "Ruch przychodzący"
 
@@ -904,6 +906,7 @@ msgstr "Strefa wychodząca"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:61
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:151
+msgctxt "firewall output"
 msgid "Output"
 msgstr "Ruch wychodzący"
 
@@ -1616,6 +1619,15 @@ msgstr "do 65536 wpisów."
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
 msgid "valid firewall mark"
 msgstr "prawidłowy znacznik zapory"
+
+#~ msgid "Forward"
+#~ msgstr "Ruch przekazujący"
+
+#~ msgid "Input"
+#~ msgstr "Ruch przychodzący"
+
+#~ msgid "Output"
+#~ msgstr "Ruch wychodzący"
 
 #~ msgid "Invalid set name"
 #~ msgstr "Nieprawidłowa nazwa zestawu"

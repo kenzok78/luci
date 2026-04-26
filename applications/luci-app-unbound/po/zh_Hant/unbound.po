@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2026-04-13 14:31+0000\n"
+"PO-Revision-Date: 2026-04-16 07:27+0000\n"
 "Last-Translator: ZW <roc_fe@users.noreply.hosted.weblate.org>\n"
 "Language-Team: Chinese (Traditional Han script) <https://hosted.weblate.org/"
 "projects/openwrt/luciapplicationsunbound/zh_Hant/>\n"
@@ -8,7 +8,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Weblate 5.17-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:166
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zone-details.js:66
@@ -170,7 +170,7 @@ msgstr "編輯子選項，例如 'forward-zone:'，位於 'include:"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:101
 msgid "Edit: Extended"
-msgstr "編輯: 擴展"
+msgstr "編輯: 擴充"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/files.js:90
 msgid "Edit: Server"
@@ -230,11 +230,11 @@ msgstr "排除 IPv6 GA"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:282
 msgid "Extended Statistics"
-msgstr "擴展統計資料"
+msgstr "擴充統計資料"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:283
 msgid "Extended statistics are printed from unbound-control"
-msgstr "擴展統計資料是從 unbound-control 列印"
+msgstr "擴充統計資料是從 unbound-control 列印"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:208
 msgid "Extra DNS"
@@ -338,7 +338,7 @@ msgstr "僅 IP6*"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:232
 msgid "IP6 Preferred"
-msgstr "偏好 IP6"
+msgstr "首選 IP6"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:211
 msgid "Ignore"
@@ -366,7 +366,7 @@ msgstr "限制 RFC5011 副本之間的天數以減少快閃記憶體寫入"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:264
 msgid "Limit extended DNS packet size"
-msgstr "限制擴展 DNS 封包大小"
+msgstr "限制擴充 DNS 封包大小"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:164
 msgid "Link to supported programs to load DHCP into DNS"
@@ -422,7 +422,7 @@ msgstr "紀錄"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:58
 msgid "Manual Conf"
-msgstr "手動設定"
+msgstr "手動配置"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/configure.js:241
 msgid "Medium"
@@ -698,7 +698,7 @@ msgstr "觸發網路"
 
 #: applications/luci-app-unbound/htdocs/luci-static/resources/view/unbound/zones.js:53
 msgid "Type"
-msgstr "類別"
+msgstr "類型"
 
 #: applications/luci-app-unbound/root/usr/share/luci/menu.d/luci-app-unbound.json:19
 msgid "Unbound"

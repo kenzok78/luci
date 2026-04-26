@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-30 17:00+0200\n"
-"PO-Revision-Date: 2026-02-21 16:03+0000\n"
+"PO-Revision-Date: 2026-04-19 12:18+0000\n"
 "Last-Translator: Aindriú Mac Giolla Eoin <aindriu80@gmail.com>\n"
 "Language-Team: Irish <https://hosted.weblate.org/projects/openwrt/"
 "luciapplicationsfirewall/ga/>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=5; plural=n==1 ? 0 : n==2 ? 1 : (n>2 && n<7) ? 2 :(n>"
 "6 && n<11) ? 3 : 4;\n"
-"X-Generator: Weblate 5.16.1-dev\n"
+"X-Generator: Weblate 5.17.1-dev\n"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/rules.js:48
 msgid ""
@@ -463,8 +463,9 @@ msgid "Flow offloading type"
 msgstr "Cineál díluchtaithe sreabhadh"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:62
+msgctxt "firewall forward"
 msgid "Forward"
-msgstr "Ar aghaidh"
+msgstr "Ar Aghaidh"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/snats.js:34
 msgid ""
@@ -655,6 +656,7 @@ msgstr "Méid Hash Tosaigh"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:60
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:150
+msgctxt "firewall input"
 msgid "Input"
 msgstr "Ionchur"
 
@@ -907,6 +909,7 @@ msgstr "Crios amach"
 
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:61
 #: applications/luci-app-firewall/htdocs/luci-static/resources/view/firewall/zones.js:151
+msgctxt "firewall output"
 msgid "Output"
 msgstr "Aschur"
 
@@ -1162,8 +1165,8 @@ msgid ""
 msgstr ""
 "Rialaíonn na roghanna thíos na beartais atreoraithe idir an crios seo (%s) "
 "agus criosanna eile. Clúdaíonn <em>criosanna ceann scríbe</em> trácht "
-"atreoraithe <strong>a thionscnaítear ó %q</strong>. Meaitseálann <em>"
-"criosanna foinse</em> trácht atreoraithe ó chriosanna eile <strong>atá "
+"atreoraithe <strong>a thionscnaítear ó %q</strong>. Meaitseálann "
+"<em>criosanna foinse</em> trácht atreoraithe ó chriosanna eile <strong>atá "
 "dírithe ar %q</strong>. Is <em>riail aontreoch</em> í an riail atreoraithe; "
 "mar shampla, ní chiallaíonn atreorú ó lan go wan cead atreoraithe ó wan go "
 "lan chomh maith."
@@ -1622,6 +1625,15 @@ msgstr "suas go dtí 65536 iontráil."
 #: applications/luci-app-firewall/htdocs/luci-static/resources/tools/firewall.js:338
 msgid "valid firewall mark"
 msgstr "marc balla dóiteáin bailí"
+
+#~ msgid "Forward"
+#~ msgstr "Ar aghaidh"
+
+#~ msgid "Input"
+#~ msgstr "Ionchur"
+
+#~ msgid "Output"
+#~ msgstr "Aschur"
 
 #~ msgid "Invalid set name"
 #~ msgstr "Ainm tacar neamhbhailí"
