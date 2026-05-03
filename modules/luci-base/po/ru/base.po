@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: LuCI: base\n"
 "POT-Creation-Date: 2010-05-09 01:01+0300\n"
-"PO-Revision-Date: 2026-04-21 11:00+0000\n"
+"PO-Revision-Date: 2026-04-25 12:32+0000\n"
 "Last-Translator: SnIPeRSnIPeR <snipersniper@users.noreply.hosted.weblate.org>"
 "\n"
 "Language-Team: Russian <https://hosted.weblate.org/projects/openwrt/luci/ru/>"
@@ -122,7 +122,7 @@ msgstr "%s использует стандартное кодирование ф
 msgid "%s; %d tokens separated by %s"
 msgstr "%s; %d токенов, разделённых %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:917
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:925
 msgid "'net30', 'p2p', or 'subnet'"
 msgstr "'net30', 'p2p' или 'subnet'"
 
@@ -224,7 +224,7 @@ msgstr "06: x86 UEFI (IA32)"
 msgid "07: x64 UEFI"
 msgstr "07: x64 UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:336
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:344
 msgid "0: Deny"
 msgstr "0: Запретить"
 
@@ -290,7 +290,7 @@ msgstr "18: ARM UEFI 32 boot from HTTP"
 msgid "19: ARM UEFI 64 boot from HTTP"
 msgstr "19: ARM UEFI 64 boot from HTTP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:337
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:345
 msgid "1: OS utils"
 msgstr "1: Системные утилиты"
 
@@ -347,7 +347,7 @@ msgstr "28: RISC-V 64-bit UEFI boot from HTTP"
 msgid "29: RISC-V 128-bit UEFI"
 msgstr "29: RISC-V 128-bit UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:346
 msgid "2: User scripts"
 msgstr "2: Пользовательские скрипты"
 
@@ -396,7 +396,7 @@ msgstr "38: LoongArch 32-bit UEFI boot from HTTP"
 msgid "39: LoongArch 64-bit UEFI"
 msgstr "39: LoongArch 64-bit UEFI"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:339
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:347
 msgid "3: Allow passwords in env"
 msgstr "3: Разрешить пароли в переменных окружения"
 
@@ -903,7 +903,7 @@ msgstr ""
 "подсетей интерфейса использующего <abbr title=\"Domain Name System\">DNS</"
 "abbr>."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:220
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:228
 msgid "Accept VLANs"
 msgstr "Принимать VLAN"
 
@@ -915,7 +915,7 @@ msgstr "Принимать от открытых ключей"
 msgid "Accept local"
 msgstr "Принимать локальные данные"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
 msgid "Accept options pushed from server"
 msgstr "Принимать настройки, отправленные сервером"
 
@@ -1136,7 +1136,7 @@ msgstr "Добавить адрес пира"
 msgid "Add requestor MAC"
 msgstr "Добавить запрашивающий MAC"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:631
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
 msgid "Add route after establishing connection"
 msgstr "Добавить маршрут после установки соединения"
 
@@ -1186,7 +1186,7 @@ msgstr ""
 msgid "Additional Peers"
 msgstr "Дополнительные пиры"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1190
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
 msgid "Additional authentication over TLS"
 msgstr "Дополнительная аутентификация с использованием TLS"
 
@@ -1374,7 +1374,7 @@ msgstr ""
 msgid "Allow all except listed"
 msgstr "Разрешить все, кроме"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:138
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:146
 msgid "Allow client-to-client traffic"
 msgstr "Разрешить трафик между клиентами"
 
@@ -1394,12 +1394,12 @@ msgstr "Разрешить перечисленные"
 msgid "Allow localhost"
 msgstr "Разрешить localhost"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1402
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1410
 msgid "Allow multiple clients with same certificate"
 msgstr ""
 "Разрешить одновременное подключение нескольких клиентов с одним сертификатом"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
 msgid "Allow only one session"
 msgstr "Разрешить только одну сессию"
 
@@ -1417,7 +1417,7 @@ msgstr ""
 "Разрешить удаленным хостам подключаться к локальным перенаправляемым портам "
 "<abbr title=\"Secure Shell\">SSH</abbr>"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:587
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:595
 msgid "Allow remote to change its IP or port"
 msgstr "Разрешить удалённое изменение IP-адреса или порта"
 
@@ -1440,15 +1440,15 @@ msgstr ""
 msgid "Allowed IPs"
 msgstr "Разрешённые IP-адреса"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1459
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1467
 msgid "Allowed maximum of connected clients"
 msgstr "Максимальное количество подключённых клиентов"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1466
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1474
 msgid "Allowed maximum of internal"
 msgstr "Максимальное количество внутренних маршрутов клиенту"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1473
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1481
 msgid "Allowed maximum of new connections"
 msgstr "Максимальное количество новых соединений"
 
@@ -1460,7 +1460,7 @@ msgstr "Разрешённые сетевые технологии"
 msgid "AllowedIPs setting is invalid"
 msgstr "Неверная настройка параметра AllowedIPs"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1678
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1686
 msgid ""
 "Almost nothing here prevents you from selecting invalid configuration "
 "options which prevent openvpn from starting. Read the manual."
@@ -1608,7 +1608,7 @@ msgstr "Любой пакет"
 msgid "Any zone"
 msgstr "Любая зона"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:492
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:500
 msgid "Append log to file"
 msgstr "Добавить запись в файл журнала"
 
@@ -1720,7 +1720,7 @@ msgstr "Группа аутентификации"
 msgid "Auth Priv"
 msgstr "Приватная аутентификация"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1496
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1504
 msgid "Authenticate using username/password"
 msgstr "Аутентификация по имени пользователя и паролю"
 
@@ -1800,7 +1800,7 @@ msgstr ""
 "Автоматическое монтирование раздела подкачки при подключении к системе во "
 "время её работы без выключения питания и остановки системы (hotplug)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1582
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1590
 msgid "Automatically redirect default route"
 msgstr "Автоматически перенаправлять маршрут по умолчанию"
 
@@ -1908,7 +1908,7 @@ msgstr "Базовое устройство"
 msgid "Base64-encoded public key of this interface for sharing."
 msgstr "Открытый ключ этого интерфейса в кодировке Base64."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1596
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
 msgid "Basic Settings"
 msgstr "Основные настройки"
 
@@ -2111,7 +2111,7 @@ msgid "CA certificate; if empty it will be saved after the first connection."
 msgstr ""
 "CA-сертификат; если отсутствует, будет сохранен после первого соединения."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:950
 msgid "CA path"
 msgstr "Путь к CA"
 
@@ -2147,7 +2147,7 @@ msgstr "Кэшировать произвольные ресурсные зап�
 msgid "Cached"
 msgstr "Кэшировано"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:373
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
 msgid "Call down cmd/script before TUN/TAP close"
 msgstr "Выполнить DOWN-команду/скрипт перед закрытием TUN/TAP"
 
@@ -2309,11 +2309,11 @@ msgctxt "Yet unknown nftables chain hook"
 msgid "Chain hook \"%h\""
 msgstr "Хук цепочки ‎«%h»"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:281
 msgid "Change process priority"
 msgstr "Изменить приоритет процесса"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
 msgid "Change to directory before initialization"
 msgstr "Перейти в указанный каталог перед инициализацией"
 
@@ -2363,7 +2363,7 @@ msgstr "Ширина канала"
 msgid "Check filesystems before mount"
 msgstr "Проверка файловых систем перед монтированием"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1264
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1272
 msgid "Check peer certificate against a CRL"
 msgstr ""
 "Проверять наличие сертификата узла в CRL (списке отозванных сертификатов)"
@@ -2413,7 +2413,7 @@ msgstr ""
 "беспроводной сети или заполните поле <em>создать</em>, чтобы создать новый "
 "интерфейс."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:258
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:266
 msgid "Chroot to directory after initialization"
 msgstr ""
 "Корневой каталог после инициализации. OpenVPN не сможет получить доступ к "
@@ -2421,15 +2421,15 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1304
 msgid "Cipher"
-msgstr "Алгоритм шифрования"
+msgstr "Шифр"
 
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:91
 msgid "Cisco UDP encapsulation"
 msgstr "Формирование пакетов данных Cisco UDP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1758
 msgid "Clear"
-msgstr "Очистить"
+msgstr "Сбросить"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:389
 msgid ""
@@ -2462,11 +2462,11 @@ msgstr ""
 "ID клиента для отправки в <abbr title=\"Dynamic Host Configuration "
 "Protocol\">DHCP</abbr>"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
 msgid "Client is disabled"
 msgstr "Клиент отключён"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1714
 msgid "Client metadata"
 msgstr "Метаданные клиента"
 
@@ -2559,7 +2559,7 @@ msgid "Compute outgoing checksum (optional)."
 msgstr "Вычислять исходящую контрольную сумму (опционально)."
 
 #: protocols/luci-proto-nebula/htdocs/luci-static/resources/protocol/nebula.js:40
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
 msgid "Config File"
 msgstr "Конфигурационный файл"
 
@@ -2589,6 +2589,10 @@ msgid "Configure client mode"
 msgstr "Настроить режим клиента"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:111
+msgid "Configure server Ipv6 mode"
+msgstr ""
+
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:119
 msgid "Configure server bridge"
 msgstr "Настроить мост сервера"
 
@@ -2668,11 +2672,11 @@ msgstr "Подтверждение отключения"
 msgid "Confirmation"
 msgstr "Подтверждение пароля"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1561
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1569
 msgid "Connect through Socks5 proxy"
 msgstr "Подключаться через SOCKS5-прокси"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1532
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1540
 msgid "Connect to remote host through an HTTP proxy"
 msgstr "Подключаться к удалённой машине с использованием HTTP-прокси"
 
@@ -2701,7 +2705,7 @@ msgstr "Конечный узел для подключения"
 msgid "Connection lost"
 msgstr "Подключение потеряно"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1533
 msgid "Connection retry interval"
 msgstr "Интервал между попытками подключения"
 
@@ -2830,7 +2834,7 @@ msgstr "Уровень журналирования cron"
 msgid "Cross Pass (Japan only)"
 msgstr "Cross Pass (только для Японии)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1599
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
 msgid "Cryptography"
 msgstr "Криптография"
 
@@ -3180,11 +3184,11 @@ msgstr ""
 msgid "Delay before enabling port after MII link up event (msec)"
 msgstr "Задержка перед включением порта после события подключения MII (мс)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:655
 msgid "Delay n seconds after connection"
 msgstr "Задержка после подключения, в секундах"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
 msgid "Delay tun/tap open and up script execution"
 msgstr "Задержка открытия TUN/TAP и выполнения UP-скрипта"
 
@@ -3353,7 +3357,7 @@ msgid "Device unreachable! Still waiting for device..."
 msgstr "Устройство недоступно! Ожидание устройства..."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1519
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1600
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:289
 msgid "Devices"
 msgstr "Устройства"
@@ -3382,7 +3386,7 @@ msgstr ""
 "достижимости; значение публикуется в сообщениях <abbr title=\"Router "
 "Advertisement\">RA</abbr>."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:934
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:942
 msgid "Diffie-Hellman parameters"
 msgstr "Файл параметров Диффи-Хеллмана"
 
@@ -3394,7 +3398,7 @@ msgstr "Каталог"
 msgid "Directory"
 msgstr "Каталог"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1412
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1420
 msgid "Directory for custom client config files"
 msgstr "Каталог для пользовательских config-файлов клиента"
 
@@ -3451,7 +3455,7 @@ msgstr ""
 msgid "Disable DNS lookups"
 msgstr "Скрыть DNS-запросы"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:924
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:932
 msgid "Disable Data Channel Offloading (DCO) support"
 msgstr "Отключить поддержку разгрузки канала данных (DCO)"
 
@@ -3463,11 +3467,11 @@ msgstr "Отключить шифрование"
 msgid "Disable Inactivity Polling"
 msgstr "Отключить отслеживание неактивности клиентов"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:243
 msgid "Disable Paging"
 msgstr "Отключить сброс страниц из оперативной памяти в файл подкачки"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:242
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:250
 msgid "Disable options consistency check"
 msgstr "Выключить проверку согласованности параметров"
 
@@ -3597,7 +3601,7 @@ msgstr ""
 "указан, раздел действителен для всех экземпляров dnsmasq."
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:37
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:594
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:602
 msgid "Do not bind to local address and port"
 msgstr "Не привязываться к локальному адресу и порту"
 
@@ -3695,43 +3699,43 @@ msgstr "Белый список доменов"
 msgid "Don't Fragment"
 msgstr "Не фрагментировать"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:617
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:625
 msgid "Don't actually execute ifconfig"
 msgstr "Не выполнять команды ifconfig"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:654
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:662
 msgid "Don't add routes automatically"
 msgstr "Не добавлять маршруты автоматически"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1213
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1221
 msgid "Don't cache --askpass or --auth-user-pass passwords"
 msgstr "Не кэшировать пароли --askpass и --auth-user-pass в оперативной памяти"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:668
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:676
 msgid "Don't drop incoming tun packets with same destination as host"
 msgstr ""
 "Не отбрасывать входящие tun-пакеты с таким же адресом назначения, как и у "
 "хоста"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1351
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1359
 msgid "Don't inherit global push options"
 msgstr "Не наследовать глобальные push-опции"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:515
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
 msgid "Don't log timestamps"
 msgstr "Не записывать метки времени в системный журнал"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:661
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:669
 msgid "Don't pull routes automatically"
 msgstr "Не добавлять маршруты автоматически"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:842
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:850
 msgid "Don't re-read key on restart"
 msgstr ""
 "Не перечитывать файлы ключей при перезапуске (выполнении 'SIGUSR1' или 'ping-"
 "restart')"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:624
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:632
 msgid "Don't warn on ifconfig inconsistencies"
 msgstr ""
 "Не выводить предупреждение проверки согласованности параметров, если "
@@ -3740,7 +3744,7 @@ msgstr ""
 
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:152
 msgid "Down"
-msgstr "Вниз"
+msgstr "Отключён"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3511
 msgid "Download"
@@ -3766,7 +3770,7 @@ msgstr "Скачать файл конфигурации пира"
 msgid "Downstream SNR offset"
 msgstr "SNR offset внутренней сети"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1770
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1778
 msgid "Drag and drop an ovpn config file here"
 msgstr "Перетащите файл конфигурации .ovpn сюда"
 
@@ -3938,7 +3942,7 @@ msgstr ""
 "Публичный ключ каждого репозитория (официального или стороннего) разрешает "
 "установку пакетов из подписанных им списков через менеджер пакетов."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:486
 msgid "Echo parameters to log"
 msgstr "Записывать параметры эхо-ответов в системный журнал"
 
@@ -4053,7 +4057,7 @@ msgstr "Выдаёт уведомления о пропуске IP-адреса 
 msgid "Emits netlink LLADDR miss notifications"
 msgstr "Выдаёт уведомления о пропуске LLADDR сетевого соединения"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:687
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:695
 msgid "Empirically measure MTU"
 msgstr "Эмпирически измерять MTU"
 
@@ -4142,11 +4146,11 @@ msgstr "Включить изучение MAC адресов"
 msgid "Enable NTP client"
 msgstr "Включить <abbr title=\"Network Time Protocol\">NTP</abbr>-клиент"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:998
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1006
 msgid "Enable OpenSSL hardware crypto engines"
 msgstr "Включить поддержку аппаратного шифрования OpenSSL"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:680
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:688
 msgid "Enable Path MTU discovery"
 msgstr "Автоматически определять MTU (PMTUD)"
 
@@ -4160,7 +4164,7 @@ msgstr ""
 msgid "Enable Single DES"
 msgstr "Включить Single DES"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Enable Static Key encryption mode (non-TLS)"
 msgstr ""
 "Симметричное шифрование (не TLS) по общему секретному файлу, который можно "
@@ -4171,11 +4175,11 @@ msgid "Enable TFTP server"
 msgstr ""
 "Включить <abbr title=\"Trivial File Transfer Protocol\">TFTP</abbr>-сервер"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1056
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1064
 msgid "Enable TLS and assume client role"
 msgstr "Включить TLS и выступить в роли клиента во время подтверждения TLS"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1049
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1057
 msgid "Enable TLS and assume server role"
 msgstr "Включить TLS и выступить в роли сервера во время подтверждения TLS"
 
@@ -4213,7 +4217,7 @@ msgstr ""
 "Включить нисходящее делегирование префиксов <abbr title=\"Internet Protocol "
 "Version 6\">IPv6</abbr>, доступных на этом интерфейсе"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
 msgid "Enable internal datagram fragmentation"
 msgstr ""
 "Фрагментировать UDP-дейтаграммы, которые превышают указанный порог в байтах"
@@ -4228,7 +4232,7 @@ msgstr ""
 msgid "Enable learning and aging"
 msgstr "Включить изучение и устаревание (learning/aging)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:865
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:873
 msgid "Enable management interface on <em>IP</em> <em>port</em>"
 msgstr "Включить интерфейс управления, по <em>IP-адресу</em> и <em>порту</em>"
 
@@ -4396,12 +4400,12 @@ msgstr "Предел инкапсуляции"
 msgid "Encapsulation mode"
 msgstr "Режим инкапсуляции"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1198
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
 msgid "Encrypt and authenticate all control channel packets with the key"
 msgstr ""
 "Шифровать и аутентифицировать все пакеты канала управления с помощью ключа"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1206
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1214
 msgid ""
 "Encrypt and authenticate all control channel packets with the key, version 2."
 msgstr ""
@@ -4416,7 +4420,7 @@ msgstr ""
 msgid "Encryption"
 msgstr "Шифрование"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:974
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:982
 msgid "Encryption cipher for packets"
 msgstr "Алгоритм шифрования для пакетов"
 
@@ -4517,15 +4521,15 @@ msgstr ""
 msgid "Exclude interfaces"
 msgstr "Исключить интерфейсы"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:390
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
 msgid "Execute shell cmd after routes are added"
 msgstr "Выполнить команду оболочки после добавления маршрутов"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:398
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 msgid "Execute shell command on remote IP change"
 msgstr "Выполнить команду оболочки при изменении IP-адреса удалённого хоста"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:478
 msgid ""
 "Executed in server mode on new client connections, when the client is still "
 "untrusted"
@@ -4533,7 +4537,7 @@ msgstr ""
 "Выполнять в режиме сервера '-mode server' при появлении новых клиентских "
 "соединений, если к клиенту ещё нет доверия"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:470
 msgid ""
 "Executed in server mode whenever an IPv4 address/route or MAC address is "
 "added to OpenVPN's internal routing table"
@@ -4566,7 +4570,7 @@ msgstr ""
 msgid "Existing device"
 msgstr "Существующее устройство"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1191
 msgid "Exit on TLS negotiation failure"
 msgstr "Выйти при ошибке согласования использования протокола TLS"
 
@@ -4621,7 +4625,7 @@ msgstr "Ожидается два значение приоритета, раз�
 msgid "Expecting: %s"
 msgstr "Ожидание: %s"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
 msgid "Expert Settings"
 msgstr "Расширенные настройки"
 
@@ -5178,7 +5182,7 @@ msgstr "Фрагментация"
 msgid "Fragmentation Threshold"
 msgstr "Порог фрагментации"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1707
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
 msgid "Freeform metadata to embed into the client key"
 msgstr "Произвольные метаданные для встраивания в ключ клиента"
 
@@ -5274,7 +5278,7 @@ msgstr "Метрика шлюза"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:819
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:195
 msgid "General"
-msgstr "Общие"
+msgstr "Основные"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:496
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:41
@@ -5295,7 +5299,7 @@ msgstr "Основные настройки"
 msgid "General device options"
 msgstr "Общие опции устройства"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1715
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1723
 msgid "Generate"
 msgstr "Сгенерировать"
 
@@ -5344,7 +5348,7 @@ msgstr "Создаёт конфигурацию, подходящую для и�
 msgid "Generating QR code…"
 msgstr "Генерация QR-кода…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:949
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:957
 msgid "Get certificate password from file before we daemonize"
 msgstr "Получить пароль сертификата из файла перед переходом в фоновый режим"
 
@@ -5405,23 +5409,23 @@ msgstr "Предоставление доступа к просмотру сос
 
 #: protocols/luci-proto-openconnect/root/usr/share/rpcd/acl.d/luci-openconnect.json:3
 msgid "Grant access to LuCI OpenConnect procedures"
-msgstr "Предоставление доступа к LuCI процедурам OpenConnect"
+msgstr "Предоставить доступ к функциям LuCI для OpenConnect"
 
 #: protocols/luci-proto-wireguard/root/usr/share/rpcd/acl.d/luci-wireguard.json:3
 msgid "Grant access to LuCI Wireguard procedures"
-msgstr "Предоставление доступа к LuCI WireGuard процедурам"
+msgstr "Предоставить доступ к функциям LuCI для WireGuard"
 
 #: protocols/luci-proto-yggdrasil/root/usr/share/rpcd/acl.d/luci-proto-yggdrasil.json:3
 msgid "Grant access to LuCI Yggdrasil procedures"
-msgstr "Предоставление доступа к процедурам LuCI Yggdrasil"
+msgstr "Предоставить доступ к функциям LuCI для Yggdrasil"
 
 #: protocols/luci-proto-openfortivpn/root/usr/share/rpcd/acl.d/luci-openfortivpn.json:3
 msgid "Grant access to LuCI openfortivpn procedures"
-msgstr "Предоставление доступа к процедурам LuCI openfortivpn"
+msgstr "Предоставить доступ к функциям LuCI для openfortivpn"
 
 #: protocols/luci-proto-openvpn/root/usr/share/rpcd/acl.d/luci-proto-openvpn.json:3
 msgid "Grant access to LuCI openvpn procedures"
-msgstr "Предоставить OpenVPN доступ к работе с LuCI"
+msgstr "Предоставить доступ к функциям LuCI для OpenVPN"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:60
 msgid "Grant access to Plugin management"
@@ -5443,7 +5447,7 @@ msgstr "Предоставление доступа к дисплею состо
 
 #: modules/luci-base/root/usr/share/rpcd/acl.d/luci-base.json:12
 msgid "Grant access to basic LuCI procedures"
-msgstr "Предоставление доступа к основным процедурам LuCI"
+msgstr "Предоставить доступ к базовым функциям LuCI"
 
 #: modules/luci-mod-system/root/usr/share/rpcd/acl.d/luci-mod-system.json:105
 msgid "Grant access to crontab configuration"
@@ -5543,7 +5547,7 @@ msgstr "Пароль HE.net"
 msgid "HE.net username"
 msgstr "HE.net логин"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:955
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:963
 msgid "HMAC authentication for packets"
 msgstr "Алгоритм расчёта HMAC-кода для аутентификации пакетов"
 
@@ -5560,7 +5564,7 @@ msgstr "Доступ по HTTP(S)"
 msgid "Half Duplex"
 msgstr "Полу дуплекс"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1503
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1511
 msgid "Handling of authentication failures"
 msgstr "Обработка отказов аутентификации"
 
@@ -5580,8 +5584,8 @@ msgstr "Сердечный ритм (kernel: heartbeat)"
 msgid "Hello interval"
 msgstr "Интервал приветствия"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:132
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:797
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:140
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
 msgid ""
 "Helper directive to simplify the expression of --ping and --ping-restart in "
 "server mode configurations"
@@ -6210,7 +6214,7 @@ msgstr ""
 "влияет на исходящие соединения, а также на локальные соединения, "
 "обнаруженные с помощью многоадресной рассылки."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1575
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1583
 msgid "If hostname resolve fails, retry"
 msgstr "Пытаться подключиться снова при ошибке определения имени хоста"
 
@@ -6841,11 +6845,11 @@ msgstr "Джампер"
 msgid "Jumps to another rule specified by its priority value"
 msgstr "Переход к другому правилу, указанному значением его приоритета"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:849
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:857
 msgid "Keep local IP address on restart"
 msgstr "Не изменять локальный IP-адрес при перезапуске"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:856
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:864
 msgid "Keep remote IP address on restart"
 msgstr "Не изменять удалённый IP-адрес при перезапуске"
 
@@ -6853,7 +6857,7 @@ msgstr "Не изменять удалённый IP-адрес при перез
 msgid "Keep settings and retain the current configuration"
 msgstr "Сохранить настройки и оставить текущую конфигурацию"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:835
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:843
 msgid "Keep tun/tap device open on restart"
 msgstr "Сохранять виртуальное устройство TUN/TAP запущенным при перезагрузке"
 
@@ -6912,7 +6916,7 @@ msgctxt "Label indicating that WireGuard peer lacks public key"
 msgid "Key missing"
 msgstr "Отсутствует ключ"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1175
 msgid "Key transition window"
 msgstr "Период жизни старого ключа во время обновления"
 
@@ -6920,7 +6924,7 @@ msgstr "Период жизни старого ключа во время обн
 msgid "Key used to sign network config"
 msgstr "Ключ, используемый для подписи конфигурации сети"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1602
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1610
 msgid "Keygen"
 msgstr "Генерация ключей"
 
@@ -7123,7 +7127,7 @@ msgstr "События:"
 msgid "Limit"
 msgstr "Лимит"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:508
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:516
 msgid "Limit repeated log messages"
 msgstr "Ограничить повторяющиеся сообщения в журнале"
 
@@ -7447,7 +7451,7 @@ msgstr ""
 "Host Configuration Protocol\">DHCP</abbr>-именам и записи файла hosts (/etc/"
 "hosts)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:543
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
 msgid "Local host name or IP address"
 msgstr "Имя или IP-адрес локального хоста"
 
@@ -7478,7 +7482,7 @@ msgstr "Подключаться к BSSID"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:389
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:203
 msgid "Log"
-msgstr "Журнал"
+msgstr "Системный журнал"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/views.js:48
 msgid "Log alert"
@@ -7543,7 +7547,7 @@ msgid "Log queries"
 msgstr "Запись запросов"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/system.js:118
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1603
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1611
 msgid "Logging"
 msgstr "Журналирование"
 
@@ -7692,7 +7696,7 @@ msgstr "MX"
 msgid "Mail"
 msgstr "Почта"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:536
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:544
 msgid "Major mode"
 msgstr "Основной режим"
 
@@ -7704,15 +7708,15 @@ msgstr ""
 "Убедитесь, что вы клонируете корневую файловую систему с помощью команд, "
 "аналогичных приведённым ниже:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1604
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1612
 msgid "Management"
 msgstr "Управление"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
 msgid "Management cert"
 msgstr "Сертификат управления"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:903
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:911
 msgid "Management key"
 msgstr "Ключ управления"
 
@@ -7732,7 +7736,7 @@ msgstr "Производитель"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1225
 msgid "Master"
-msgstr "Основной"
+msgstr "Ведущий"
 
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3985
 msgid "Master (VLAN)"
@@ -7900,7 +7904,7 @@ msgstr "Максимальное количество записей FDB"
 msgid "Maximum number of leased addresses."
 msgstr "Максимальное количество адресов, доступных для аренды."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1452
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1460
 msgid "Maximum number of queued TCP output packets"
 msgstr "Максимальное количество сегментов TCP в очереди на отправку"
 
@@ -8111,7 +8115,7 @@ msgstr "Домен мобильности"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/channel_analysis.js:462
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:154
 msgid "Mode"
-msgstr "Режим"
+msgstr "Режим работы"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:67
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:83
@@ -8486,7 +8490,7 @@ msgstr "Миграция конфигурации сетевых интерфе�
 msgid "Network interface"
 msgstr "Сетевой интерфейс"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1605
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1613
 msgid "Networking"
 msgstr "Сеть"
 
@@ -8889,7 +8893,7 @@ msgstr "Уведомление"
 msgid "Nslookup"
 msgstr "DNS-запрос"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1445
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1453
 msgid "Number of allocated broadcast buffers"
 msgstr "Количество выделенных широковещательных буферов"
 
@@ -8899,7 +8903,7 @@ msgstr ""
 "Количество кэшированных <abbr title=\"Domain Name System\">DNS</abbr>-"
 "записей (максимум — 10000, 0 — отключить кэширование)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:895
 msgid "Number of lines for log file history"
 msgstr "Количество строк в файле журнала"
 
@@ -9055,7 +9059,7 @@ msgstr ""
 "Предполагается, что в любой момент времени в сети будет активен только один "
 "из MAC-адресов."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:828
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:836
 msgid "Only process ping timeouts if routes exist"
 msgstr ""
 "Использовать временную задержку пинг-запросов только в случае, когда "
@@ -9073,7 +9077,7 @@ msgstr "Открыть список..."
 msgid "OpenConnect (CISCO AnyConnect)"
 msgstr "Открытое подключение (CISCO AnyConnect)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1640
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1648
 msgid "OpenVPN"
 msgstr "OpenVPN"
 
@@ -9123,7 +9127,7 @@ msgstr "Код оператора"
 msgid "Operator Name"
 msgstr "Имя оператора"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:280
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:288
 msgid "Optimize TUN/TAP/UDP writes"
 msgstr "Оптимизация записей ввода/вывода TUN/TAP/UDP (экспериментальная опция)"
 
@@ -9269,11 +9273,11 @@ msgstr ""
 msgid "Options"
 msgstr "Опции"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1681
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1689
 msgid "Options marked with ² are OpenSSL only."
 msgstr "Опции, отмеченные ², работают только с OpenSSL."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1679
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1687
 msgid "Options marked with ¹ are deprecated and will be removed."
 msgstr "Опции, отмеченные ¹, устарели и будут удалены."
 
@@ -9513,7 +9517,7 @@ msgstr "PIN код отвергнут"
 msgid "PIO directory"
 msgstr "Каталог <abbr title=\"Prefix Information Option\">PIO</abbr>"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:174
 msgid "PKCS#12 file containing keys"
 msgstr ""
 "Файл PKCS#12, содержащий закрытый ключ, локальный сертификат и сертификат "
@@ -9624,11 +9628,11 @@ msgstr[2] "Частей сети:"
 msgid "Part of zone %q"
 msgstr "Часть зоны %q"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:405
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
 msgid "Pass environment variables to script"
 msgstr "Передавать переменные окружения скрипту"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:413
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:421
 msgid "Pass environment variables to script prepended with OPENVPN_"
 msgstr "Передать переменные окружения в скрипт с префиксом OPENVPN_"
 
@@ -9704,7 +9708,7 @@ msgstr "Вставьте или перетащите публичный ключ
 msgid "Paste or drag supplied WireGuard configuration file…"
 msgstr "Вставьте или перетащите имеющийся файл конфигурации WireGuard…"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1733
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1741
 msgid "Path"
 msgstr "Путь"
 
@@ -9756,7 +9760,7 @@ msgstr "Макс. значение:"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:83
 msgid "Peer"
-msgstr "Равноправный узел"
+msgstr "Пир"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/view/wireguard/status.js:60
 msgid "Peer Details"
@@ -9830,13 +9834,13 @@ msgstr "Выполнить сброс"
 msgid "Permission denied"
 msgstr "Доступ запрещён"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1050
 msgid "Persist replay-protection state"
 msgstr ""
 "Сохранять состояние защиты от воспроизведения в сеансах, используя файл для "
 "сохранения и перезагрузки состояния"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1374
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1382
 msgid "Persist/unpersist ifconfig-pool"
 msgstr ""
 "Сохранять пул ifconfig в указанный файл с заданной периодичностью (в "
@@ -9864,7 +9868,7 @@ msgstr "Настройки канала"
 msgid "Ping"
 msgstr "Пинг-запрос"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:805
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
 msgid "Ping remote every n seconds over TCP/UDP port"
 msgstr "Выполнять пинг-запрос каждые n секунд, используя порт TCP/UDP"
 
@@ -9926,7 +9930,7 @@ msgstr "Статус PoE"
 msgid "Policy"
 msgstr "Политика"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:341
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:349
 msgid "Policy level over usage of external programs and scripts"
 msgstr "Уровень безопасности для внешних программ и скриптов"
 
@@ -10023,7 +10027,7 @@ msgstr "Присутствует"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:572
 msgid "Preshared Key"
-msgstr "Предварительный ключ"
+msgstr "Предварительно распределённый ключ (PSK)"
 
 #: protocols/luci-proto-wireguard/htdocs/luci-static/resources/protocol/wireguard.js:543
 msgid "Preshared key in use"
@@ -10201,7 +10205,7 @@ msgstr "Прокси"
 msgid "Proxy Server"
 msgstr "Сервер прокси"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1555
 msgid "Proxy timeout in seconds"
 msgstr "Время ожидания прокси в секундах"
 
@@ -10258,15 +10262,15 @@ msgstr ""
 msgid "PublicKey setting is invalid"
 msgstr "Неверная настройка параметра PublicKey"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1606
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1614
 msgid "Push"
 msgstr "Отправка"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1389
 msgid "Push an ifconfig option to remote"
 msgstr "Выполнить команду ifconfig на удалённом узле"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1338
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1346
 msgid "Push options to peer"
 msgstr "Параметры узла - 'Push options'"
 
@@ -10312,7 +10316,7 @@ msgstr ""
 msgid "Query interval"
 msgstr "Интервал запроса"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:872
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:880
 msgid "Query management channel for private key"
 msgstr "Канал управления запросами для закрытого ключа"
 
@@ -10436,7 +10440,7 @@ msgctxt "nft nat flag random"
 msgid "Randomize source port mapping"
 msgstr "Случайное сопоставление исходного порта"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1517
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1525
 msgid "Randomly choose remote server"
 msgstr "Случайно выбирать удалённый сервер"
 
@@ -10444,7 +10448,7 @@ msgstr "Случайно выбирать удалённый сервер"
 msgid "Raw Data"
 msgstr "Декодированные данные"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1767
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1775
 msgid "Raw OVPN config"
 msgstr "Исходная конфигурация OVPN"
 
@@ -10567,7 +10571,7 @@ msgstr "Обновить данные"
 msgid "Refreshing"
 msgstr "Обновляется"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1419
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1427
 msgid "Refuse connection if no custom client config"
 msgstr ""
 "Разорвать соединение, если пользовательский конфигурационный файл клиента "
@@ -10661,7 +10665,7 @@ msgstr "Перезагрузить"
 msgid "Remaining time"
 msgstr "Остаток времени"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:299
 msgid "Remap SIGUSR1 signals"
 msgstr ""
 "Изменить реакцию на сигнал SIGUSR1: SIGHUP (перезагрузка без сохранения "
@@ -10699,7 +10703,7 @@ msgstr "Удалённый VTEP"
 msgid "Remote host name or IP address"
 msgstr "Имя удалённого хоста или его IP-адрес"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:813
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
 msgid "Remote ping timeout"
 msgstr "Время ожидания удалённого пинг-запроса"
 
@@ -10725,7 +10729,7 @@ msgstr ""
 msgid "Remove MAC address before forwarding query"
 msgstr "Удаление MAC-адреса перед пересылкой запроса"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1345
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1353
 msgid "Remove Push options"
 msgstr "Удалить push-опции"
 
@@ -10775,15 +10779,15 @@ msgstr "Удаление адреса подсети перед пересылк
 msgid "Removes records of the specified type(s) from answers."
 msgstr "Удаляет записи указанного типа(ов) из ответов."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
 msgid "Renegotiate data chan. key after bytes"
 msgstr "Повторное согласование ключа канала данных после пересылки N байт"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1143
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
 msgid "Renegotiate data chan. key after packets"
 msgstr "Повторное согласование ключа канала данных после пересылки N пакетов"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1151
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
 msgid "Renegotiate data chan. key after seconds"
 msgstr ""
 "Повторное согласование ключа канала данных каждые N секунд (по умолчанию "
@@ -10793,8 +10797,8 @@ msgstr ""
 msgid "Replace wireless configuration"
 msgstr "Заменить конфигурацию беспроводной сети"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1020
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1027
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1028
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1035
 msgid "Replay protection sliding window size"
 msgstr ""
 "Использовать защиту от повтора — скользящее окно размером N с интервалом "
@@ -10830,12 +10834,12 @@ msgstr ""
 msgid "Request timeout"
 msgstr "Тайм-аут запроса"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1233
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1241
 msgid "Require explicit designation on certificate"
 msgstr "Требовать явного указания в сертификате"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1246
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1257
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1254
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1265
 msgid "Require explicit key usage on certificate"
 msgstr "Требовать явного использования ключа в сертификате"
 
@@ -10853,7 +10857,7 @@ msgstr "Требуется входящая контрольная сумма (�
 msgid "Require incoming packets serialization (optional)."
 msgstr "Требуется сериализация входящих пакетов (опционально)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1239
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1247
 msgid "Require remote cert extended key usage on certificate"
 msgstr "Требовать расширенное использование ключа в удалённом сертификате"
 
@@ -11043,7 +11047,7 @@ msgstr "Перезапустить"
 msgid "Restart Firewall"
 msgstr "Перезапустить межсетевой экран"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:821
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:829
 msgid "Restart after remote ping timeout"
 msgstr "Перезапуск после тайм-аута ожидания удалённого пинг-запроса"
 
@@ -11059,11 +11063,11 @@ msgstr "Восстановить"
 msgid "Restore backup"
 msgstr "Восстановить резервную копию"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1324
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1332
 msgid "Restrict the allowed ciphers to be negotiated"
 msgstr "Ограничить разрешённые шифры согласования"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1127
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1135
 msgid "Retransmit timeout on TLS control channel"
 msgstr ""
 "Период повторной передачи пакета по управляющему TLS каналу, если нет "
@@ -11074,11 +11078,11 @@ msgid ""
 "Retrieve the listener addresses from the Yggdrasil interface configuration."
 msgstr "Получите адреса слушателей из конфигурации интерфейса Yggdrasil."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1539
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1547
 msgid "Retry indefinitely on HTTP proxy errors"
 msgstr "Переподключаться в случае ошибок HTTP-прокси"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1568
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1576
 msgid "Retry indefinitely on Socks proxy errors"
 msgstr "Переподключаться в случае ошибок SOCKS-прокси"
 
@@ -11206,7 +11210,7 @@ msgstr "Цепочка маршрутизации трафика «%h»"
 msgid "Route short-circuit (RSC)"
 msgstr "Короткое замыкание маршрута (RSC)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1388
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1396
 msgid "Route subnet to client"
 msgstr "Маршрутизировать подсеть клиенту"
 
@@ -11214,7 +11218,7 @@ msgstr "Маршрутизировать подсеть клиенту"
 msgid "Route type"
 msgstr "Тип маршрута"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1395
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1403
 msgid "Route v6 subnet to client"
 msgstr "Маршрутизировать IPv6-подсеть к клиенту"
 
@@ -11316,23 +11320,23 @@ msgstr ""
 "Правила определяют, какую таблицу маршрутизации использовать, основываясь на "
 "условиях (например, исходный адрес или интерфейс)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:462
 msgid "Run script cmd for client TLS verification"
 msgstr "Выполнить команду скрипта для проверки TLS клиента"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
 msgid "Run script cmd on client connection"
 msgstr "Выполнить команду скрипта при подключении клиента"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:454
 msgid "Run script cmd on client disconnection"
 msgstr "Выполнить команду скрипта при отключении клиента"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:446
 msgid "Run script cmd to validate client certificates"
 msgstr "Выполнить команду скрипта для проверки сертификатов клиента"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:381
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:389
 msgid "Run up/down scripts for all restarts"
 msgstr "Запускать 'up/down' скрипты во время всех перезапусков"
 
@@ -11467,7 +11471,7 @@ msgstr "Планировщик"
 msgid "Scheduling daemon"
 msgstr "Демон планировщика"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1607
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1615
 msgid "Scripting"
 msgstr "Скрипты"
 
@@ -11566,7 +11570,7 @@ msgstr ""
 msgid "Send multicast beacon"
 msgstr "Отправка многоадресного маяка"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1510
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1518
 msgid "Send notification to peer on disconnect"
 msgstr "Отправить уведомление на узел при отключении"
 
@@ -11589,7 +11593,7 @@ msgstr "Сервер"
 msgid "Server address"
 msgstr "Адрес сервера"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1698
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1706
 msgid "Server key"
 msgstr "Ключ сервера"
 
@@ -11597,7 +11601,7 @@ msgstr "Ключ сервера"
 msgid "Server name"
 msgstr "Имя сервера"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1608
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1616
 msgid "Service"
 msgstr "Служба"
 
@@ -11641,11 +11645,11 @@ msgstr ""
 "Настройка произвольного типа ресурсной записи (<abbr title=\"Resource "
 "Record\">RR</abbr>)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1367
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1375
 msgid "Set aside a pool of subnets"
 msgstr "Выделить пул подсетей"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1554
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1562
 msgid "Set extended HTTP proxy options"
 msgstr "Расширенные параметры HTTP-прокси"
 
@@ -11674,21 +11678,21 @@ msgstr ""
 msgid "Set log class/facility for syslog entries."
 msgstr "Установка класса/функции журнала для записей syslog."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:523
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:531
 msgid "Set output verbosity"
 msgstr "Детализация ведения журнала"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1438
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1446
 msgid "Set size of real and virtual address hash tables"
 msgstr ""
 "Размер реального адреса хеш-таблицы R и виртуального адреса хеш-таблицы R. "
 "По умолчанию для обеих таблиц установлено значение 256"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
 msgid "Set the TCP/UDP receive buffer size"
 msgstr "Размер буфера TCP/UDP на приём"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:766
 msgid "Set the TCP/UDP send buffer size"
 msgstr "Размер буфера TCP/UDP на передачу"
 
@@ -11713,7 +11717,7 @@ msgstr ""
 "Configuration Protocol Version 6\">DHCPv6</abbr>, а также проксирования "
 "<abbr title=\"Neighbor Discovery Protocol\">NDP</abbr>."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:774
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
 msgid "Set tun/tap TX queue length"
 msgstr "Размер очереди передачи TUN/TAP-интерфейса"
 
@@ -11725,11 +11729,11 @@ msgstr ""
 "конечной точки VPN, а rn — это IP-адрес удалённой конечной точки VPN (TUN) "
 "или маска подсети (TAP)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:726
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
 msgid "Set tun/tap device MTU"
 msgstr "Задайте MTU для виртуального устройства TUN/TAP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:734
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:742
 msgid "Set tun/tap device overhead"
 msgstr ""
 "Резерв из MTU на заголовки для сегментов виртуального устройства TUN/TAP в "
@@ -11746,7 +11750,7 @@ msgstr ""
 "Автоматическое создание маршрутов для проксированных <abbr title=\"Internet "
 "Protocol Version 6\">IPv6</abbr>-соседей."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:750
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:758
 msgid "Set upper bound on TCP MSS"
 msgstr ""
 "Верхняя граница для TCP MSS (максимальный размер сегмента ≤ MTU − IP-"
@@ -11786,19 +11790,19 @@ msgstr ""
 "Настройки для помощи беспроводным клиентам в роуминге между несколькими "
 "точками доступа: 802.11r, 802.11k и 802.11v"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:782
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
 msgid "Shaping for peer bandwidth"
 msgstr "Ограничение полосы пропускания"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:350
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:358
 msgid "Shell cmd to execute after tun device open"
 msgstr "Команда оболочки для выполнения после открытия устройства TUN"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:366
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:374
 msgid "Shell cmd to run after tun device close"
 msgstr "Команда оболочки для выполнения после закрытия устройства TUN"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:430
 msgid "Shell command to verify X509 name"
 msgstr "Команда оболочки для проверки имени X.509-сертификата"
 
@@ -11862,7 +11866,7 @@ msgstr "Частота обновления сигнала"
 msgid "Signal:"
 msgstr "Сигнал:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1034
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1042
 msgid "Silence the output of replay warnings"
 msgstr ""
 "Не выводить предупреждения о повторах. В Wi-Fi сетях часты ложные сработки"
@@ -12224,7 +12228,7 @@ msgstr ""
 "внешнего заголовка наследуется из значения внутреннего заголовка) или "
 "шестнадцатеричное значение <code>00...FF</code> (необязательно)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:639
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:647
 msgid "Specify a placeholder gateway for routes"
 msgstr "Указать шлюз-заглушку для маршрутов"
 
@@ -12247,7 +12251,7 @@ msgstr ""
 "Укажите MTU (максимальный объём данных), отличный от стандартного (1280 "
 "байт)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1007
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1015
 msgid "Specify the curve to use for ECDH"
 msgstr "Выбрать кривую для ECDH"
 
@@ -12262,7 +12266,7 @@ msgstr ""
 msgid "Specify the secret encryption key here."
 msgstr "Укажите закрытый ключ."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1589
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1597
 msgid "Specify whether the client is required to supply a valid certificate"
 msgstr "Требуется ли от клиента предоставление действительного сертификата"
 
@@ -12301,7 +12305,7 @@ msgctxt "daemon start action"
 msgid "Start"
 msgstr "Старт"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:879
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:887
 msgid "Start OpenVPN in a hibernating state"
 msgstr "Запустить OpenVPN в спящем режиме"
 
@@ -12334,7 +12338,7 @@ msgstr "Автозапуск"
 #: protocols/luci-proto-modemmanager/htdocs/luci-static/resources/view/modemmanager/status.js:90
 #: protocols/luci-proto-yggdrasil/htdocs/luci-static/resources/protocol/yggdrasil.js:139
 msgid "State"
-msgstr "Область / регион"
+msgstr "Состояние"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/routes.js:34
 msgid "Static IPv4 Routes"
@@ -12378,7 +12382,7 @@ msgstr "Максимально допустимое время бездейст�
 msgid "Status"
 msgstr "Статус"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:311
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:319
 msgid "Status file format version"
 msgstr "Версия формата файла состояния"
 
@@ -12389,7 +12393,7 @@ msgstr ""
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:530
 msgid "Stop"
-msgstr "Стоп"
+msgstr "Остановить"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/startup.js:101
 msgctxt "daemon stop action"
@@ -12590,15 +12594,15 @@ msgid "TCP source port"
 msgstr "TCP-порт источника"
 
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:31
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:551
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
 msgid "TCP/UDP port # for both local and remote"
 msgstr "Номер локального и удалённого TCP/UDP-порта"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:559
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
 msgid "TCP/UDP port # for local"
 msgstr "Локальный порт TCP/UDP"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:567
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:575
 msgid "TCP/UDP port # for remote"
 msgstr "Удалённый порт TCP/UDP"
 
@@ -12612,19 +12616,19 @@ msgstr ""
 "Корневой каталог <abbr title=\"Trivial File Transfer Protocol\">TFTP</abbr>-"
 "сервера"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1115
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1123
 msgid "TLS 1.3 or newer cipher"
 msgstr "Алгоритм шифрования TLS 1.3 и выше"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1291
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1299
 msgid "TLS cet profile"
 msgstr "Профиль TLS-сертификата"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1071
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1079
 msgid "TLS cipher"
 msgstr "Алгоритм шифрования TLS 1.2 и ниже"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:265
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:273
 msgid "TOS passthrough (applies to IPv4 only)"
 msgstr ""
 "Задать поле TOS (тип обслуживания) на основании этого поля в "
@@ -12692,7 +12696,7 @@ msgstr "Теги"
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routesj.js:218
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routesj.js:255
 msgid "Target"
-msgstr "Приоритет"
+msgstr "Цели"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/10_system.js:69
 msgid "Target Platform"
@@ -13068,7 +13072,7 @@ msgstr ""
 "Шестнадцатеричный <abbr title=\"Суффикс адреса\"><a href=\"%s\">IPv6-токен</"
 "a></abbr> для этого хоста (до 16 символов, т.е. 64 бита)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1281
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1289
 msgid "The highest supported TLS version"
 msgstr "Самая высокая поддерживаемая версия протокола TLS"
 
@@ -13105,7 +13109,7 @@ msgstr "Имя интерфейса уже используется"
 msgid "The interface name is too long"
 msgstr "Имя интерфейса слишком длинное"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:158
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:166
 msgid "The key direction for 'tls-auth' and 'secret' options"
 msgstr "Изменить направление ключа для параметров 'tls-auth' и 'secret'"
 
@@ -13142,7 +13146,7 @@ msgstr "Локальный адрес IPv4, по которому создаёт
 msgid "The local IPv6 address over which the tunnel is created (optional)."
 msgstr "Локальный IPv6-адрес, через который создаётся туннель (необязательно)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1271
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1279
 msgid "The lowest supported TLS version"
 msgstr "Самая низкая поддерживаемая версия протокола TLS"
 
@@ -13207,7 +13211,7 @@ msgstr ""
 "сети. Обычно по умолчанию имеется один Uplink-порт для подключения к "
 "вышестоящей сети (например, к Интернету) и другие порты для локальной сети."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:173
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:181
 msgid "The peer key fingerprint"
 msgstr "Отпечаток ключа узла"
 
@@ -13633,7 +13637,7 @@ msgstr "Временная зона"
 msgid "Timed-out"
 msgstr "Тайм-аут"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1159
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1167
 msgid "Timeframe for key exchange"
 msgstr "Временные рамки для обмена ключами"
 
@@ -13692,7 +13696,7 @@ msgstr "Включить/выключить IPv6 PD через DHCPv6."
 msgid "Tone"
 msgstr "Тон"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1609
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1617
 msgid "Topology"
 msgstr "Топология"
 
@@ -13807,7 +13811,7 @@ msgstr "Идентификатор туннеля"
 #: modules/luci-base/htdocs/luci-static/resources/network.js:3070
 #: modules/luci-compat/luasrc/model/network.lua:1431
 msgid "Tunnel Interface"
-msgstr "Туннель"
+msgstr "Интерфейс туннеля"
 
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/464xlat.js:44
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/dslite.js:57
@@ -13834,7 +13838,7 @@ msgstr "Мощность передатчика"
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1736
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:178
 #: protocols/luci-proto-ipv6/htdocs/luci-static/resources/protocol/map.js:43
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1688
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1696
 msgid "Type"
 msgstr "Тип"
 
@@ -13842,7 +13846,7 @@ msgstr "Тип"
 msgid "Type of service"
 msgstr "Тип службы"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:194
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:202
 msgid "Type of used device"
 msgstr "Тип используемого устройства"
 
@@ -14122,7 +14126,7 @@ msgstr "Узел без имени"
 
 #: modules/luci-compat/luasrc/view/cbi/tblsection.htm:151
 msgid "Up"
-msgstr "Вверх"
+msgstr "Работает"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5027
 msgid "Upload"
@@ -14260,7 +14264,7 @@ msgstr "Использовать MTU на интерфейсе туннеля"
 msgid "Use TTL on tunnel interface"
 msgstr "Использовать TTL на интерфейсе туннеля"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:208
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:216
 msgid "Use VLAN tagging"
 msgstr "Использовать VLAN-тегирование"
 
@@ -14316,7 +14320,7 @@ msgstr ""
 "Использовать устаревший MAP формат идентификатора интерфейса (draft-ietf-"
 "softwire-map-00) вместо RFC7597"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:580
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:588
 msgid "Use protocol"
 msgstr "Использовать протокол"
 
@@ -14366,15 +14370,15 @@ msgstr ""
 "срок аренды для устройства, например 12h (12 часов), 3d (3 дня) или infinite "
 "(бессрочный)."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:227
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:235
 msgid "Use these PVIDs"
 msgstr "Использовать эти PVID"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:201
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:209
 msgid "Use tun/tap device node"
 msgstr "Виртуальный TUN/TAP-интерфейс узла"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1480
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:1488
 msgid "Use username as common name"
 msgstr "Использовать имя пользователя в качестве общего имени"
 
@@ -14395,7 +14399,7 @@ msgstr ""
 "Используется в двух целях: как NAS ID для RADIUS и как R0KH-ID для 802.11r. "
 "Не требуется при использовании WPA(2)-PSK."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:147
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:155
 msgid "Used with auth and cipher params"
 msgstr "Используется с параметрами auth и cipher"
 
@@ -14764,7 +14768,7 @@ msgstr ""
 "Если опция включена, параметры ключей R0/R1, расположенные ниже, не "
 "применяются. Отключите эту опцию для использования параметров ключей R0 и R1."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:601
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:609
 msgid ""
 "When you have more than one IP address (e.g. multiple interfaces, or "
 "secondary IP addresses), and do not use --local to force binding to one "
@@ -14878,7 +14882,7 @@ msgstr "Беспроводная сеть включена"
 msgid "Workaround mode can only be used when acting as an access point."
 msgstr "Режим совместимости можно использовать только в режиме точки доступа."
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:485
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:493
 msgid "Write log to file"
 msgstr "Записывать события в файл"
 
@@ -15306,8 +15310,8 @@ msgstr "минут(ы)"
 msgid "mobile home agent (H)"
 msgstr "мобильный домашний агент (H)"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:406
 #: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:414
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:422
 msgid "name value"
 msgstr "имя / значение"
 
@@ -15458,7 +15462,7 @@ msgstr "режим сервера"
 msgid "severity:"
 msgstr "уровень:"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:479
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:487
 msgid "some params echoed to log"
 msgstr "некоторые параметры выводятся в журнал"
 
@@ -15520,11 +15524,11 @@ msgctxt "DHCPv6 address request mode"
 msgid "try"
 msgstr "попробовать"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:183
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:191
 msgid "tun/tap device"
 msgstr "Виртуальный TUN/TAP-интерфейс"
 
-#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:790
+#: protocols/luci-proto-openvpn/htdocs/luci-static/resources/protocol/openvpn.js:798
 msgid "tun/tap inactivity timeout"
 msgstr "Тайм-аут бездействия tun/tap"
 
