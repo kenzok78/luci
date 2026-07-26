@@ -19,6 +19,28 @@ const callNetworkDeviceStatus = rpc.declare({
 	expect: { '': {} }
 });
 
+const speedBaseParse = /^(\d+)base(\w+)-(H|F)$/;
+const phyLinkSpeeds = [
+	"10baseT-F", "10baseT-H",
+	"100baseT-F", "100baseT-H",
+	"1000baseT-F",
+	"2500baseT-F",
+	"5000baseT-F",
+	"10000baseT-F",
+	"14000baseT-F",
+	"20000baseT-F",
+	"25000baseT-F",
+	"40000baseT-F",
+	"50000baseT-F",
+	"56000baseT-F",
+	"80000baseT-F",
+	"100000baseT-F",
+	"200000baseT-F",
+	"400000baseT-F",
+	"800000baseT-F",
+	"1600000baseT-F"
+];
+
 var isReadonlyView = !L.hasViewPermission() || null;
 
 function count_changes(section_id) {
@@ -82,7 +104,6 @@ function render_status(node, ifc, with_device) {
 	const cond00 = !changecount && !ifc.isDynamic() && !ifc.isAlias();
 	const cond01 = cond00 && macaddr;
 	const cond02 = cond00 && maindev;
-	const cond03 = cond00 && carrier;
 
 	function addEntries(label, array) {
 		return Array.isArray(array) ? array.flatMap((item) => [label, item]) : [label, null];
@@ -91,7 +112,7 @@ function render_status(node, ifc, with_device) {
 	return L.itemlist(node, [
 		_('Protocol'), with_device ? null : (desc || '?'),
 		_('Device'), with_device ? (maindev ? maindev.getShortName() : E('em', _('Not present'))) : null,
-		_('Carrier'), (cond03) ? _('Present') : _('Absent'),
+		_('Carrier'), (cond02) ? (carrier ? _('Present') : _('Absent')) : null,
 		_('Uptime'), (!changecount && ifc.isUp()) ? '%t'.format(ifc.getUptime()) : null,
 		_('MAC'), (cond01) ? macaddr : null,
 		_('RX'), (cond02) ? '%.2mB (%d %s)'.format(maindev.getRXBytes(), maindev.getRXPackets(), _('Pkts.')) : null,
@@ -977,7 +998,7 @@ return view.extend({
 						return;
 					}
 
-					so = ss.taboption('ipv6-ra', form.Value, 'ra_pref64', _('NAT64 prefix'), _('Announce NAT64 prefix in <abbr title="Router Advertisement">RA</abbr> messages.') +  ' ' + 
+					so = ss.taboption('ipv6-ra', form.Value, 'ra_pref64', _('NAT64 prefix'), _('Announce NAT64 prefix in <abbr title="Router Advertisement">RA</abbr> messages.') +  ' ' +
 						_('See %s and %s.').format('<a href="%s" target="_blank">RFC6146</a>', '<a href="%s" target="_blank">RFC8781</a>').format('https://www.rfc-editor.org/rfc/rfc6146', 'https://www.rfc-editor.org/rfc/rfc8781'));
 					so.optional = true;
 					so.datatype = 'cidr6';
@@ -999,7 +1020,7 @@ return view.extend({
 					so.depends('ra', 'server');
 					so.depends({ ra: 'hybrid', master: '0' });
 
-					so = ss.taboption('ipv6-ra', form.Value, 'ra_reachabletime', _('<abbr title="Router Advertisement">RA</abbr> Reachability Timer'), 
+					so = ss.taboption('ipv6-ra', form.Value, 'ra_reachabletime', _('<abbr title="Router Advertisement">RA</abbr> Reachability Timer'),
 						_('Units: milliseconds. 0 means unspecified.') + ' ' +
 						_('Dictates how long a node assumes a neighbor is reachable after a reachability confirmation; published in <abbr title="Router Advertisement">RA</abbr> messages.'));
 					so.optional = true;
@@ -1008,7 +1029,7 @@ return view.extend({
 					so.depends('ra', 'server');
 					so.depends({ ra: 'hybrid', master: '0' });
 
-					so = ss.taboption('ipv6-ra', form.Value, 'ra_retranstime', _('<abbr title="Router Advertisement">RA</abbr> Retransmission Timer'), 
+					so = ss.taboption('ipv6-ra', form.Value, 'ra_retranstime', _('<abbr title="Router Advertisement">RA</abbr> Retransmission Timer'),
 						_('Units: milliseconds. 0 means unspecified.') + ' ' +
 						_('Controls retransmitted Neighbor Solicitation messages; published in <abbr title="Router Advertisement">RA</abbr> messages.'));
 					so.optional = true;
@@ -1589,15 +1610,43 @@ return view.extend({
 			const isNew = (uci.get('network', s.section, 'name') == null);
 			const dev = getDevice(s.section);
 			const devName = dev ? dev.getName() : null;
+			const parseLinks = (data) => data.reduce((a, b) => {
+				const data = speedBaseParse.exec(b);
+				if (data && data.length == 4) {
+					const [_, speed, base, duplex] = data;
+					const newSpeed = {
+						speed: Number(speed),
+						base: base.toUpperCase(),
+						duplex: duplex.toLowerCase() == "h" ? "half" : "full",
+					}
+					if (!a.some(previusSpeed => previusSpeed.speed == newSpeed.speed &&
+						previusSpeed.duplex == newSpeed.duplex &&
+						previusSpeed.base == newSpeed.base))
+						return a.concat(newSpeed)
+				}
+				return a;
+			}, []).sort(({ speed: p }, { speed: n }) => p > n ? 1 : -1);
 
 			/* Query PSE status from netifd to determine if device has PSE capability */
 			if (devName) {
-				return L.resolveDefault(callNetworkDeviceStatus(devName), {}).then((status) => {
-					const hasPSE = (status.pse != null);
-					nettools.addDeviceOptions(s, dev, isNew, rtTables, hasPSE);
+				return L.resolveDefault(callNetworkDeviceStatus(devName), {}).then(({
+					pse,
+					"link-advertising": linkAdvertising,
+					"link-partner-advertising": linkPartnerAdvertising,
+					"link-supported": linkSupported
+				}) => {
+					const hasPSE = (pse != null);
+					let phy_links = ([
+						...(linkAdvertising || []),
+						...(linkPartnerAdvertising || []),
+						...(linkSupported || [])
+					]);
+					if (!phy_links || phy_links.length === 0)
+						phy_links = phyLinkSpeeds;
+					nettools.addDeviceOptions(s, dev, isNew, rtTables, hasPSE, parseLinks(phy_links));
 				});
 			} else {
-				nettools.addDeviceOptions(s, dev, isNew, rtTables, false);
+				nettools.addDeviceOptions(s, dev, isNew, rtTables, false, parseLinks(phyLinkSpeeds));
 				return Promise.resolve();
 			}
 		};

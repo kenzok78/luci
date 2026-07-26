@@ -4,7 +4,6 @@
 'require rpc';
 'require uci';
 'require ui';
-'require tools.widgets as widgets';
 
 const callListAlgorithms = rpc.declare({
 	object: 'luci.swanctl',
@@ -67,32 +66,9 @@ return view.extend({
 		if (error)
 			ui.addNotification(null, E('p', _('Some options are unavailable because swanctl failed to load: %s').format(error)), 'warning');
 
-		m = new form.Map('ipsec', _('strongSwan Configuration'),
-			_('Configure strongSwan for secure VPN connections.'));
+		m = new form.Map('ipsec', _('Remote/Tunnel configuration'),
+			_('On this page, you can configure the IPsec tunnels and remotes.'));
 		m.tabbed = true;
-
-		// strongSwan General Settings
-		s = m.section(form.TypedSection, 'ipsec', _('General Settings'));
-		s.anonymous = true;
-		s.addremove = true;
-
-		o = s.option(widgets.ZoneSelect, 'zone', _('Zone'),
-			_('Firewall zone that has to match the defined firewall zone'));
-		o.default = 'lan';
-		o.multiple = true;
-
-		o = s.option(widgets.NetworkSelect, 'listen', _('Listening Interfaces'),
-			_('Interfaces that accept VPN traffic'));
-		o.datatype = 'interface';
-		o.placeholder = _('Select an interface or leave empty for all interfaces');
-		o.default = 'wan';
-		o.multiple = true;
-		o.rmempty = false;
-
-		o = s.option(form.Value, 'debug', _('Debug Level'),
-			_('Trace level: 0 is least verbose, 4 is most'));
-		o.default = '0';
-		o.datatype = 'range(0,4)';
 
 		// Remote Configuration
 		s = m.section(form.GridSection, 'remote', _('Remote Configuration'),
@@ -256,7 +232,7 @@ return view.extend({
 
 		o = s.taboption('advanced', form.ListValue, 'keyexchange', _('Keyexchange'),
 			_('Version of IKE for negotiation'));
-		o.value('ikev1', 'IKEv1 (%s)', _('deprecated'));
+		o.value('ikev1', 'IKEv1 (%s)'.format(_('deprecated')));
 		o.value('ikev2', 'IKEv2');
 		o.value('ike', 'IKE (%s, %s)'.format(_('both'), _('deprecated')));
 		o.default = 'ikev2';
@@ -274,19 +250,19 @@ return view.extend({
 
 		o = s.taboption('general', form.DynamicList, 'local_subnet', _('Local Subnet'),
 			_('Local network(s)'));
-		o.datatype = 'subnet';
+		o.datatype = 'cidr';
 		o.placeholder = '192.168.1.1/24';
 		o.rmempty = false;
 
 		o = s.taboption('general', form.DynamicList, 'remote_subnet', _('Remote Subnet'),
 			_('Remote network(s)'));
-		o.datatype = 'subnet';
+		o.datatype = 'cidr';
 		o.placeholder = '192.168.2.1/24';
 		o.rmempty = false;
 
 		o = s.taboption('general', form.Value, 'local_nat', _('Local NAT'),
 			_('NAT range for tunnels with overlapping IP addresses'));
-		o.datatype = 'subnet';
+		o.datatype = 'cidr';
 		o.modalonly = true;
 
 		o = s.taboption('general', form.ListValue, 'if_id', ('XFRM Interface ID'),
