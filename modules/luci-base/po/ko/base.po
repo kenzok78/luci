@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2009-06-10 03:40+0200\n"
-"PO-Revision-Date: 2026-08-28 17:27+0000\n"
+"PO-Revision-Date: 2026-09-16 09:55+0000\n"
 "Last-Translator: Hyeonjeong Lee <h9101654@gmail.com>\n"
 "Language-Team: Korean <https://hosted.weblate.org/projects/openwrt/luci/ko/>"
 "\n"
@@ -12,7 +12,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n == 1 ? 0 : 1;\n"
-"X-Generator: Weblate 2026.9.dev0\n"
+"X-Generator: Weblate 2026.10.dev0\n"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dhcp.js:212
 msgid "!known (not known)"
@@ -1711,7 +1711,7 @@ msgid ""
 "Assign prefix parts using this hexadecimal subprefix ID for this interface."
 msgstr "이 인터페이스의 서브넷 ID로 사용할 16진수 하위 접두사 ID를 지정합니다."
 
-#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2679
+#: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:2680
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/include/60_wifi.js:397
 msgid "Associated Stations"
 msgstr "연결 단말"
@@ -2214,7 +2214,7 @@ msgstr "CNAME"
 msgid "CNAME or fqdn"
 msgstr "CNAME 또는 FQDN"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:72
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:68
 msgid "CPU usage (%)"
 msgstr "CPU 사용량 (%)"
 
@@ -2632,7 +2632,7 @@ msgctxt "footstrap"
 msgid "Colours"
 msgstr "색상"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:71
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:67
 msgid "Command"
 msgstr "명령어"
 
@@ -2785,7 +2785,7 @@ msgstr "연결 해제 확인"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:548
 msgctxt "footstrap"
 msgid "Confirm reset"
-msgstr ""
+msgstr "초기화 확인"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/password.js:137
 msgid "Confirmation"
@@ -2888,7 +2888,7 @@ msgstr "명암비 %s:1 (최소 %s:1 필요 - WCAG AA 기준)"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:284
 msgctxt "footstrap"
 msgid "Controls"
-msgstr ""
+msgstr "컨트롤"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1033
 msgid ""
@@ -7256,7 +7256,7 @@ msgstr ""
 "이 크게 저하될 수 있습니다. 가능하다면, 802.11b 전송속도를 허용하지 않는 것"
 "이 좋습니다."
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:799
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:800
 msgid "Legacy rules detected"
 msgstr "레거시 규칙 감지"
 
@@ -8103,7 +8103,7 @@ msgstr "보통"
 msgid "Memory"
 msgstr "메모리"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:73
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:69
 msgid "Memory usage (%)"
 msgstr "메모리 사용량 (%)"
 
@@ -8809,14 +8809,14 @@ msgstr "일치하는 접두사 위임 없음"
 msgid "No negative cache"
 msgstr "부정 캐싱 비활성화"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:815
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:816
 msgid "No nftables ruleset loaded."
 msgstr "설정된 nftables 규칙이 없습니다."
 
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-search.js:327
 msgctxt "footstrap"
 msgid "No pages found"
-msgstr ""
+msgstr "페이지를 찾을 수 없음"
 
 #: themes/luci-theme-bootstrap/ucode/template/themes/bootstrap/header.ut:59
 #: themes/luci-theme-footstrap/ucode/template/themes/footstrap/partials/notices.ut:13
@@ -9098,7 +9098,7 @@ msgstr "사용 안 함"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:452
 msgctxt "footstrap"
 msgid "Off"
-msgstr ""
+msgstr "끔"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:1871
 msgid ""
@@ -9211,7 +9211,7 @@ msgstr ""
 msgid "Only process ping timeouts if routes exist"
 msgstr ""
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:804
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:805
 msgid "Open iptables rules overview…"
 msgstr "iptables 규칙 개요 열기…"
 
@@ -9525,7 +9525,7 @@ msgstr "IPv6 라우팅 테이블 덮어쓰기"
 #: protocols/luci-proto-sstp/htdocs/luci-static/resources/protocol/sstp.js:66
 #: protocols/luci-proto-vti/htdocs/luci-static/resources/protocol/vti.js:55
 msgid "Override MTU"
-msgstr "MTU 덮어쓰기"
+msgstr "MTU 수동 설정"
 
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gre.js:74
 #: protocols/luci-proto-gre/htdocs/luci-static/resources/protocol/gretap.js:79
@@ -9585,7 +9585,7 @@ msgstr "기존 \"%s\" 파일을 덮어쓰시겠습니까?"
 msgid "Overwrite the current settings with the imported configuration?"
 msgstr ""
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:70
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:66
 msgid "Owner"
 msgstr "소유자"
 
@@ -9638,7 +9638,7 @@ msgstr "PAP/CHAP 사용자 이름"
 msgid "PDP Type"
 msgstr "PDP 유형"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:69
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:65
 msgid "PID"
 msgstr "PID"
 
@@ -10390,7 +10390,7 @@ msgstr ""
 msgid "PrivateKey setting is missing or invalid"
 msgstr "개인 키 설정이 없거나 잘못됨"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:64
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:75
 #: modules/luci-mod-status/root/usr/share/luci/menu.d/luci-mod-status.json:114
 msgid "Processes"
 msgstr "프로세스"
@@ -11252,7 +11252,7 @@ msgstr "필터 초기화"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:559
 msgctxt "footstrap"
 msgid "Reset to default"
-msgstr ""
+msgstr "기본값으로 초기화"
 
 #: modules/luci-mod-system/htdocs/luci-static/resources/view/system/flash.js:402
 msgid "Reset to defaults"
@@ -11262,7 +11262,7 @@ msgstr "기본값으로 초기화"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:558
 msgctxt "footstrap"
 msgid "Reset to saved"
-msgstr ""
+msgstr "저장된 값으로 초기화"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/dns.js:204
 msgid "Resolv &amp; Hosts Files"
@@ -11736,7 +11736,7 @@ msgstr "기본값으로 저장됨"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:345
 msgctxt "footstrap"
 msgid "Scale"
-msgstr ""
+msgstr "크기"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:960
 msgid "Scan"
@@ -12619,7 +12619,7 @@ msgstr "새로 고침 시작"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-search.js:327
 msgctxt "footstrap"
 msgid "Start typing to find a page"
-msgstr ""
+msgstr "검색어를 입력하세요"
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:5478
 msgid "Starting configuration apply…"
@@ -13591,7 +13591,7 @@ msgstr ""
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-prefs.js:1026
 msgctxt "footstrap"
 msgid "The router refused to delete the file (ubus status %d)."
-msgstr ""
+msgstr "라우터에서 파일 삭제를 거부했습니다. (ubus 상태 %d)"
 
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routes.js:172
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/routesj.js:204
@@ -13717,7 +13717,7 @@ msgctxt "footstrap"
 msgid "Theme"
 msgstr "테마"
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:800
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/nftables.js:801
 msgid ""
 "There are legacy iptables rules present on the system. Mixing iptables and "
 "nftables rules is discouraged and may lead to incomplete traffic filtering."
@@ -13864,7 +13864,7 @@ msgstr ""
 msgid "This key is protected and cannot be deleted."
 msgstr "해당 키는 보호되어 있으며 삭제할 수 없습니다."
 
-#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:65
+#: modules/luci-mod-status/htdocs/luci-static/resources/view/status/processes.js:76
 msgid ""
 "This list gives an overview over currently running system processes and "
 "their status."
@@ -14476,7 +14476,7 @@ msgstr "아카이브 업로드..."
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-prefs.js:1147
 msgctxt "footstrap"
 msgid "Upload failed."
-msgstr ""
+msgstr "업로드에 실패했습니다."
 
 #: modules/luci-base/htdocs/luci-static/resources/ui.js:3440
 msgid "Upload file"
@@ -14880,7 +14880,7 @@ msgstr "VPN 서버 포트"
 msgid "VPN Server's certificate SHA1 hash"
 msgstr ""
 
-#: modules/luci-compat/luasrc/model/network/proto_vpnc.lua:9
+#: modules/luci-compat/luasrc/model/network/proto_vpnc.lua:8
 #: protocols/luci-proto-vpnc/htdocs/luci-static/resources/protocol/vpnc.js:9
 msgid "VPNC (CISCO 3000 (and others) VPN)"
 msgstr "VPNC [Cisco 3000 (및 기타) VPN]"
@@ -15622,7 +15622,7 @@ msgstr "지정 안 함(ignore)"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:293
 msgctxt "footstrap"
 msgid "in the sidebar"
-msgstr ""
+msgstr "사이드바 내"
 
 #: modules/luci-base/htdocs/luci-static/resources/tools/views.js:269
 #: modules/luci-mod-status/htdocs/luci-static/resources/view/status/dmesg.js:278
@@ -15779,12 +15779,12 @@ msgstr "꺼짐"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:300
 msgctxt "footstrap"
 msgid "on a card"
-msgstr ""
+msgstr "카드 위"
 
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:287
 msgctxt "footstrap"
 msgid "on a control"
-msgstr ""
+msgstr "컨트롤 위"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/interfaces.js:907
 msgid "on available prefix"
@@ -15793,7 +15793,7 @@ msgstr "사용 가능한 접두사 존재 시"
 #: themes/luci-theme-footstrap/htdocs/luci-static/resources/fs-appearance.js:223
 msgctxt "footstrap"
 msgid "on the canvas"
-msgstr ""
+msgstr "캔버스 위"
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1511
 msgid "open network"
@@ -15939,6 +15939,7 @@ msgctxt "footstrap"
 msgid ""
 "the uploaded file could not be removed either; it is still on the router."
 msgstr ""
+"업로드한 파일 역시 삭제하지 못했습니다. 파일이 여전히 라우터에 남아 있습니다."
 
 #: modules/luci-mod-network/htdocs/luci-static/resources/view/network/wireless.js:1918
 msgid "time units (TUs / 1.024 ms) [1000-65535]"

@@ -44,6 +44,22 @@ function handleAction(ev) {
 	return fs.exec_direct('/etc/init.d/shunt', [ev]);
 }
 
+// `shunt refresh` re-reads the domain files in the running daemon; its
+// output is the count and the issues, worth showing as is.
+function handleRefresh() {
+	return fs.exec('/usr/sbin/shunt', ['refresh'])
+		.then(function (res) {
+			const text = ((res.stdout || '') + (res.stderr || '')).trim();
+
+			ui.addNotification(null, E('pre', {}, [text || _('No output')]),
+				res.code === 0 ? 'info' : 'warning');
+		})
+		.catch(function (e) {
+			ui.addNotification(null,
+				E('p', {}, [_('Refresh failed: %s').format(e)]), 'error');
+		});
+}
+
 return view.extend({
 	load: function () {
 		return Promise.all([
@@ -88,10 +104,19 @@ return view.extend({
 		o.default = '1';
 		o.editable = true;
 
+		o = s.option(form.ListValue, 'action', _('Action'),
+			_('Route the selected traffic into the interface below, or \
+				bypass it - a bypass policy marks nothing and exempts the traffic from every policy after it.'));
+		o.value('route', _('Route into a policy interface'));
+		o.value('bypass', _('Bypass - leave the traffic alone'));
+		o.default = 'route';
+		o.editable = true;
+
 		o = s.option(form.Value, 'interface', _('Interface'),
 			_('The device or logical interface this policy routes into. A \
 				netifd name is resolved to its device; any other device name is used as entered.'));
 		o.rmempty = false;
+		o.depends('action', 'route');
 
 		uci.sections('network', 'interface').forEach(function (n) {
 			if (n['.name'] !== 'loopback') {
@@ -103,6 +128,15 @@ return view.extend({
 		o.value('main', _('Fall through to the normal uplink'));
 		o.value('block', _('Block the traffic (killswitch)'));
 		o.default = 'main';
+		o.depends('action', 'route');
+
+		o = s.option(form.Flag, 'keep_local', _('Keep Local Traffic'),
+			_('Traffic to networks the routing table already has a route for \
+				- your other subnets, your static routes - stays on the normal path instead of entering the policy interface. Turn this off only for a hermetic killswitch.'));
+		o.default = '1';
+		o.rmempty = false;
+		o.modalonly = true;
+		o.depends('action', 'route');
 
 		o = s.option(form.DynamicList, 'src', _('Source Addresses'),
 			_('Client addresses or prefixes this policy applies to. Leave empty to apply to every client.'));
@@ -135,6 +169,18 @@ return view.extend({
 				subdomains but not the apex - list both to cover both.'));
 		o.modalonly = true;
 
+		o = s.option(form.DynamicList, 'domain_file', _('Domain Files'),
+			_('Files with one domain pattern per line, for large or \
+				community-maintained lists. A bare name lives under /tmp/shunt, an absolute path is used as given. Entries from a file are learned by the DNS observer only, never polled; after the file changed, refresh below.'));
+		o.placeholder = 'community.txt';
+		o.modalonly = true;
+		o.validate = function (section_id, value) {
+			if (value && (/\s/.test(value) || (value.charAt(0) !== '/' && value.indexOf('/') !== -1))) {
+				return _('Expecting a bare file name or an absolute path, without whitespace');
+			}
+			return true;
+		};
+
 		o = s.option(form.Value, 'gw4', _('IPv4 Gateway Override'),
 			_('Only needed when the gateway discovered from netifd is wrong. \
 				Point to point interfaces need no gateway at all.'));
@@ -156,7 +202,15 @@ return view.extend({
 					'click': ui.createHandlerFn(this, function () {
 						return handleAction('restart');
 					})
-				}, [_('Save & Restart')])
+				}, [_('Save & Restart')]),
+				' ',
+				E('button', {
+					'class': 'btn cbi-button cbi-button-action',
+					'style': 'float:none',
+					'click': ui.createHandlerFn(this, function () {
+						return handleRefresh();
+					})
+				}, [_('Refresh Domain Files')])
 			]);
 		});
 

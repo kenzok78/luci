@@ -184,7 +184,7 @@ return view.extend({
 
 		let m, s, o;
 		m = new form.Map('banip', 'banIP', _('Configuration of the banIP package to ban incoming and outgoing IPs via named nftables Sets. \
-			For further information please check the %s.'.format(`<a style="color:#37c;font-weight:bold;" href="https://github.com/openwrt/packages/blob/master/net/banip/files/README.md" target="_blank" rel="noreferrer noopener" >${_('online documentation')}</a>`)));
+			For further information please check the %s.'.format(`<a style="color:#37c;font-weight:bold;" href="https://github.com/openwrt/packages/blob/master/net/banip/README.md" target="_blank" rel="noreferrer noopener" >${_('online documentation')}</a>`)));
 
 		/*
 			set text content helper function
@@ -516,7 +516,7 @@ return view.extend({
 		o = s.taboption('general', form.Flag, 'ban_nftcount', _('Reporting Counters'), _('Enable NFT counters for Set elements and chain rules. Required for the GeoIP Map and packet statistics in the Set Reporting.'));
 		o.rmempty = true;
 
-		o = s.taboption('general', form.Flag, 'ban_map', _('Enable GeoIP Map'), _('Enable a GeoIP Map with suspicious Set elements. This requires external requests to get the map tiles and geolocation data.'));
+		o = s.taboption('general', form.Flag, 'ban_map', _('Enable GeoIP Map'), _('Enable a GeoIP Map with suspicious Set elements. This requires external requests to load the Leaflet library and to fetch the geolocation data.'));
 		o.depends('ban_nftcount', '1');
 		o.optional = true;
 		o.rmempty = true;
